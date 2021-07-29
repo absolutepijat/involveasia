@@ -1,0 +1,1508 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:38.4px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:38.4px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:23.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:23.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:15.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:15.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:15.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:15.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:16.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:16.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:23.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:23.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:26.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:26.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:13.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:13.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:13.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:13.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:20.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:20.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:14.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:14.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:14.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:14.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:14.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:14.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:22.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:22.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:18.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:18.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:27.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:27.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:27.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:27.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:10.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:10.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:30.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:30.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:12.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:12.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:Arial,serif;font-size:17.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Arial,serif;font-size:17.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:13.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Arial,serif;font-size:13.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_135{font-family:Arial,serif;font-size:13.1px;color:rgb(255,153,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_135{font-family:Arial,serif;font-size:13.1px;color:rgb(255,153,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Arial,serif;font-size:21.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Arial,serif;font-size:21.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:17.1px;color:rgb(255,146,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_034{font-family:Arial,serif;font-size:17.1px;color:rgb(255,146,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_035{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Arial,serif;font-size:14.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Arial,serif;font-size:14.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Arial,serif;font-size:10.0px;color:rgb(255,255,255);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_036{font-family:Arial,serif;font-size:10.0px;color:rgb(255,255,255);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_037{font-family:Arial,serif;font-size:11.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_037{font-family:Arial,serif;font-size:11.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_039{font-family:Arial,serif;font-size:21.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_039{font-family:Arial,serif;font-size:21.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_040{font-family:Arial,serif;font-size:21.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Arial,serif;font-size:21.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_038{font-family:Arial,serif;font-size:12.0px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_038{font-family:Arial,serif;font-size:12.0px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_041{font-family:Arial,serif;font-size:12.0px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_041{font-family:Arial,serif;font-size:12.0px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_042{font-family:Arial,serif;font-size:10.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_042{font-family:Arial,serif;font-size:10.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_043{font-family:Arial,serif;font-size:10.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_043{font-family:Arial,serif;font-size:10.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_044{font-family:Arial,serif;font-size:27.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_044{font-family:Arial,serif;font-size:27.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_045{font-family:Arial,serif;font-size:14.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_045{font-family:Arial,serif;font-size:14.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_046{font-family:Arial,serif;font-size:10.1px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_046{font-family:Arial,serif;font-size:10.1px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_047{font-family:Arial,serif;font-size:14.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_047{font-family:Arial,serif;font-size:14.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_048{font-family:Arial,serif;font-size:11.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_048{font-family:Arial,serif;font-size:11.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_049{font-family:Arial,serif;font-size:11.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_049{font-family:Arial,serif;font-size:11.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_050{font-family:Arial,serif;font-size:11.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_050{font-family:Arial,serif;font-size:11.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_051{font-family:Arial,serif;font-size:10.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_051{font-family:Arial,serif;font-size:10.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_052{font-family:Arial,serif;font-size:10.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_052{font-family:Arial,serif;font-size:10.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_053{font-family:Arial,serif;font-size:15.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_053{font-family:Arial,serif;font-size:15.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_055{font-family:Arial,serif;font-size:11.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_055{font-family:Arial,serif;font-size:11.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_054{font-family:Arial,serif;font-size:19.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_054{font-family:Arial,serif;font-size:19.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_057{font-family:Arial,serif;font-size:24.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_057{font-family:Arial,serif;font-size:24.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_058{font-family:Arial,serif;font-size:24.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_058{font-family:Arial,serif;font-size:24.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_056{font-family:Arial,serif;font-size:14.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_056{font-family:Arial,serif;font-size:14.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_059{font-family:Arial,serif;font-size:14.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_059{font-family:Arial,serif;font-size:14.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_060{font-family:Arial,serif;font-size:12.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_060{font-family:Arial,serif;font-size:12.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_061{font-family:Arial,serif;font-size:18.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_061{font-family:Arial,serif;font-size:18.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_062{font-family:Arial,serif;font-size:16.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_062{font-family:Arial,serif;font-size:16.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_063{font-family:Arial,serif;font-size:12.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_063{font-family:Arial,serif;font-size:12.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_064{font-family:Arial,serif;font-size:11.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_064{font-family:Arial,serif;font-size:11.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_065{font-family:Arial,serif;font-size:21.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_065{font-family:Arial,serif;font-size:21.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_066{font-family:Arial,serif;font-size:16.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_066{font-family:Arial,serif;font-size:16.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_068{font-family:Arial,serif;font-size:25.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_068{font-family:Arial,serif;font-size:25.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_067{font-family:Arial,serif;font-size:16.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_067{font-family:Arial,serif;font-size:16.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_069{font-family:Arial,serif;font-size:17.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_069{font-family:Arial,serif;font-size:17.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_070{font-family:Arial,serif;font-size:20.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_070{font-family:Arial,serif;font-size:20.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_071{font-family:Arial,serif;font-size:15.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_071{font-family:Arial,serif;font-size:15.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_073{font-family:Arial,serif;font-size:17.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_073{font-family:Arial,serif;font-size:17.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_074{font-family:Arial,serif;font-size:17.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_074{font-family:Arial,serif;font-size:17.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_072{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_072{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_075{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_075{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_076{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_076{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_077{font-family:Arial,serif;font-size:26.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_077{font-family:Arial,serif;font-size:26.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_078{font-family:Arial,serif;font-size:18.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_078{font-family:Arial,serif;font-size:18.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_080{font-family:Arial,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_080{font-family:Arial,serif;font-size:7.0px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_081{font-family:Arial,serif;font-size:8.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_081{font-family:Arial,serif;font-size:8.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_079{font-family:Arial,serif;font-size:30.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_079{font-family:Arial,serif;font-size:30.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_082{font-family:Arial,serif;font-size:5.0px;color:rgb(237,125,49);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_082{font-family:Arial,serif;font-size:5.0px;color:rgb(237,125,49);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_083{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_083{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_084{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_084{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_085{font-family:Arial,serif;font-size:8.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_085{font-family:Arial,serif;font-size:8.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_086{font-family:Arial,serif;font-size:9.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_086{font-family:Arial,serif;font-size:9.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_087{font-family:Arial,serif;font-size:12.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_087{font-family:Arial,serif;font-size:12.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_088{font-family:Arial,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_088{font-family:Arial,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_089{font-family:Arial,serif;font-size:12.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_089{font-family:Arial,serif;font-size:12.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_090{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_090{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_091{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_091{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_092{font-family:Arial,serif;font-size:12.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_092{font-family:Arial,serif;font-size:12.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_093{font-family:Arial,serif;font-size:24.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_093{font-family:Arial,serif;font-size:24.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_096{font-family:Arial,serif;font-size:17.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_096{font-family:Arial,serif;font-size:17.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_097{font-family:Arial,serif;font-size:17.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_097{font-family:Arial,serif;font-size:17.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_102{font-family:Arial,serif;font-size:12.1px;color:rgb(255,153,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_102{font-family:Arial,serif;font-size:12.1px;color:rgb(255,153,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_098{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_098{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_099{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_099{font-family:Arial,serif;font-size:10.6px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_094{font-family:Arial,serif;font-size:25.1px;color:rgb(237,125,49);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_094{font-family:Arial,serif;font-size:25.1px;color:rgb(237,125,49);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_095{font-family:Arial,serif;font-size:25.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_095{font-family:Arial,serif;font-size:25.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_100{font-family:Arial,serif;font-size:8.1px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_100{font-family:Arial,serif;font-size:8.1px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_101{font-family:Arial,serif;font-size:8.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_101{font-family:Arial,serif;font-size:8.1px;color:rgb(153,153,153);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_103{font-family:Arial,serif;font-size:20.7px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_103{font-family:Arial,serif;font-size:20.7px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_104{font-family:Arial,serif;font-size:12.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_104{font-family:Arial,serif;font-size:12.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_105{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_105{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_106{font-family:Arial,serif;font-size:26.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_106{font-family:Arial,serif;font-size:26.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_107{font-family:Arial,serif;font-size:10.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_107{font-family:Arial,serif;font-size:10.1px;color:rgb(237,125,49);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_108{font-family:Arial,serif;font-size:9.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_108{font-family:Arial,serif;font-size:9.1px;color:rgb(67,67,67);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_109{font-family:Arial,serif;font-size:14.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_109{font-family:Arial,serif;font-size:14.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_113{font-family:Arial,serif;font-size:14.1px;color:rgb(127,96,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_113{font-family:Arial,serif;font-size:14.1px;color:rgb(127,96,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_110{font-family:Arial,serif;font-size:17.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_110{font-family:Arial,serif;font-size:17.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_111{font-family:Arial,serif;font-size:15.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_111{font-family:Arial,serif;font-size:15.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_112{font-family:Arial,serif;font-size:10.1px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_112{font-family:Arial,serif;font-size:10.1px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_114{font-family:Arial,serif;font-size:8.1px;color:rgb(204,204,204);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_114{font-family:Arial,serif;font-size:8.1px;color:rgb(204,204,204);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_115{font-family:Arial,serif;font-size:27.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_115{font-family:Arial,serif;font-size:27.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_116{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_116{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_136{font-family:Arial,serif;font-size:12.1px;color:rgb(255,146,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_136{font-family:Arial,serif;font-size:12.1px;color:rgb(255,146,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_117{font-family:Arial,serif;font-size:12.1px;color:rgb(255,146,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_117{font-family:Arial,serif;font-size:12.1px;color:rgb(255,146,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_118{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_118{font-family:Arial,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_119{font-family:Arial,serif;font-size:25.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_119{font-family:Arial,serif;font-size:25.1px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_120{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_120{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_121{font-family:Arial,serif;font-size:11.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_121{font-family:Arial,serif;font-size:11.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_122{font-family:Arial,serif;font-size:10.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_122{font-family:Arial,serif;font-size:10.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_123{font-family:Arial,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_123{font-family:Arial,serif;font-size:12.1px;color:rgb(255,255,255);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_124{font-family:Arial,serif;font-size:11.1px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_124{font-family:Arial,serif;font-size:11.1px;color:rgb(102,102,102);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_125{font-family:Arial,serif;font-size:25.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_125{font-family:Arial,serif;font-size:25.1px;color:rgb(255,153,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_126{font-family:Arial,serif;font-size:32.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_126{font-family:Arial,serif;font-size:32.1px;color:rgb(255,146,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_127{font-family:Arial,serif;font-size:18.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_127{font-family:Arial,serif;font-size:18.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_128{font-family:Arial,serif;font-size:15.1px;color:rgb(153,153,153);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_128{font-family:Arial,serif;font-size:15.1px;color:rgb(153,153,153);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_129{font-family:Arial,serif;font-size:12.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_129{font-family:Arial,serif;font-size:12.1px;color:rgb(67,67,67);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_130{font-family:Arial,serif;font-size:13.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_130{font-family:Arial,serif;font-size:13.1px;color:rgb(67,67,67);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_132{font-family:Arial,serif;font-size:14.1px;color:rgb(237,125,49);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_132{font-family:Arial,serif;font-size:14.1px;color:rgb(237,125,49);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_131{font-family:Arial,serif;font-size:14.1px;color:rgb(237,125,49);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_131{font-family:Arial,serif;font-size:14.1px;color:rgb(237,125,49);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_133{font-family:Arial,serif;font-size:11.1px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_133{font-family:Arial,serif;font-size:11.1px;color:rgb(102,102,102);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_134{font-family:Arial,serif;font-size:11.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_134{font-family:Arial,serif;font-size:11.1px;color:rgb(102,102,102);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-360px;top:0px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background01.jpg" width=720 height=405></div>
+<div style="position:absolute;left:55.65px;top:198.43px" class="cls_002"><span class="cls_002">Involve Onboarding Programme</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:415px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background02.jpg" width=720 height=405></div>
+<div style="position:absolute;left:355.50px;top:38.23px" class="cls_004"><span class="cls_004">Apa itu Involve Asia?</span></div>
+<div style="position:absolute;left:364.44px;top:106.37px" class="cls_003"><span class="cls_003">●</span></div>
+<div style="position:absolute;left:391.50px;top:106.37px" class="cls_003"><span class="cls_003">150+ karyawan dengan kantor di</span></div>
+<div style="position:absolute;left:391.50px;top:127.07px" class="cls_003"><span class="cls_003">Malaysia, Thailand & Indonesia</span></div>
+<div style="position:absolute;left:364.44px;top:157.77px" class="cls_003"><span class="cls_003">●  Advertisers - lebih dari </span><span class="cls_005">300+ merek</span></div>
+<div style="position:absolute;left:391.50px;top:178.47px" class="cls_003"><span class="cls_003">untuk dipilih</span></div>
+<div style="position:absolute;left:364.44px;top:209.17px" class="cls_003"><span class="cls_003">●  Menawarkan Program Afiliasi dengan</span></div>
+<div style="position:absolute;left:391.50px;top:229.87px" class="cls_003"><span class="cls_003">network lebih dari </span><span class="cls_005">150.000+</span></div>
+<div style="position:absolute;left:391.50px;top:250.57px" class="cls_005"><span class="cls_005">Publishers</span></div>
+<div style="position:absolute;left:363.84px;top:281.23px" class="cls_006"><span class="cls_006">●  Lebih dari $15M komisi yang</span></div>
+<div style="position:absolute;left:391.50px;top:303.31px" class="cls_006"><span class="cls_006">sudah dibayarkan ke Publishers</span></div>
+<div style="position:absolute;left:364.44px;top:335.43px" class="cls_003"><span class="cls_003">●  Rata-rata penghasilan </span><span class="cls_005">$400 (per</span></div>
+<div style="position:absolute;left:391.50px;top:356.13px" class="cls_005"><span class="cls_005">bulan)</span><span class="cls_003"> untuk Publishers dan</span></div>
+<div style="position:absolute;left:391.50px;top:376.83px" class="cls_003"><span class="cls_003">Influencers</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:830px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background03.jpg" width=720 height=405></div>
+<div style="position:absolute;left:56.18px;top:59.11px" class="cls_007"><span class="cls_007">Apa itu</span></div>
+<div style="position:absolute;left:504.87px;top:88.97px" class="cls_009"><span class="cls_009">Publisher</span></div>
+<div style="position:absolute;left:56.18px;top:83.54px" class="cls_008"><span class="cls_008">Affiliate Marketing?</span></div>
+<div style="position:absolute;left:514.20px;top:103.22px" class="cls_010"><span class="cls_010">(Anda)</span></div>
+<div style="position:absolute;left:359.86px;top:129.24px" class="cls_011"><span class="cls_011">Membayarkan</span></div>
+<div style="position:absolute;left:642.12px;top:129.24px" class="cls_011"><span class="cls_011">Bagikan link</span></div>
+<div style="position:absolute;left:57.22px;top:136.53px" class="cls_012"><span class="cls_012">●</span></div>
+<div style="position:absolute;left:83.07px;top:136.53px" class="cls_013"><span class="cls_013">Affiliate Marketing</span></div>
+<div style="position:absolute;left:369.74px;top:141.24px" class="cls_011"><span class="cls_011">Komisi ke</span></div>
+<div style="position:absolute;left:647.98px;top:141.24px" class="cls_011"><span class="cls_011">Afiliasi ke</span></div>
+<div style="position:absolute;left:370.49px;top:153.24px" class="cls_011"><span class="cls_011">Publisher</span></div>
+<div style="position:absolute;left:648.71px;top:153.24px" class="cls_011"><span class="cls_011">followers</span></div>
+<div style="position:absolute;left:83.07px;top:154.47px" class="cls_012"><span class="cls_012">mempromosikan produk atau</span></div>
+<div style="position:absolute;left:380.30px;top:165.24px" class="cls_011"><span class="cls_011">(You)</span></div>
+<div style="position:absolute;left:657.02px;top:165.24px" class="cls_011"><span class="cls_011">Anda</span></div>
+<div style="position:absolute;left:83.07px;top:172.41px" class="cls_012"><span class="cls_012">layanan secara online melalui tautan</span></div>
+<div style="position:absolute;left:83.07px;top:190.35px" class="cls_012"><span class="cls_012">unik di properti internet Anda </span><span class="cls_015">(situs</span></div>
+<div style="position:absolute;left:83.07px;top:208.29px" class="cls_015"><span class="cls_015">web, profil media sosial, video, dll.)</span><span class="cls_012">.</span></div>
+<div style="position:absolute;left:586.33px;top:219.54px" class="cls_009"><span class="cls_009">Publisher’s</span></div>
+<div style="position:absolute;left:419.70px;top:226.66px" class="cls_009"><span class="cls_009">Advertiser</span></div>
+<div style="position:absolute;left:595.01px;top:233.79px" class="cls_009"><span class="cls_009">Audiens</span></div>
+<div style="position:absolute;left:57.22px;top:236.23px" class="cls_012"><span class="cls_012">●</span></div>
+<div style="position:absolute;left:83.07px;top:236.23px" class="cls_012"><span class="cls_012">Jika seseorang mengklik link Anda</span></div>
+<div style="position:absolute;left:426.38px;top:240.91px" class="cls_010"><span class="cls_010">(Brands)</span></div>
+<div style="position:absolute;left:573.55px;top:248.04px" class="cls_010"><span class="cls_010">(Followers Anda)</span></div>
+<div style="position:absolute;left:83.07px;top:254.17px" class="cls_012"><span class="cls_012">dan akhirnya membeli produk atau</span></div>
+<div style="position:absolute;left:83.07px;top:272.11px" class="cls_012"><span class="cls_012">layanan yang Anda promosikan,</span></div>
+<div style="position:absolute;left:83.07px;top:290.05px" class="cls_012"><span class="cls_012">Anda akan mendapatkan komisi.</span></div>
+<div style="position:absolute;left:493.24px;top:312.84px" class="cls_011"><span class="cls_011">Klik pada link dan</span></div>
+<div style="position:absolute;left:57.22px;top:317.99px" class="cls_012"><span class="cls_012">●</span></div>
+<div style="position:absolute;left:83.07px;top:317.99px" class="cls_012"><span class="cls_012">Performa Anda dilacak melalui</span></div>
+<div style="position:absolute;left:484.86px;top:324.84px" class="cls_011"><span class="cls_011">membeli dari website</span></div>
+<div style="position:absolute;left:83.07px;top:335.93px" class="cls_012"><span class="cls_012">tautan Afiliasi yang unik untuk Anda.</span></div>
+<div style="position:absolute;left:509.71px;top:336.84px" class="cls_011"><span class="cls_011">Advertiser</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:1245px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background04.jpg" width=720 height=405></div>
+<div style="position:absolute;left:70.28px;top:29.46px" class="cls_018"><span class="cls_018">Bagaimana Involve Asia</span></div>
+<div style="position:absolute;left:70.28px;top:51.06px" class="cls_018"><span class="cls_018">Bekerja?</span></div>
+<div style="position:absolute;left:79.83px;top:81.71px" class="cls_016"><span class="cls_016">●  Involve adalah sebuah platform</span><span class="cls_017"> yang</span></div>
+<div style="position:absolute;left:106.28px;top:101.03px" class="cls_017"><span class="cls_017">menghubungkan Publisher dan</span></div>
+<div style="position:absolute;left:106.28px;top:120.35px" class="cls_017"><span class="cls_017">Advertisers.</span></div>
+<div style="position:absolute;left:79.83px;top:149.67px" class="cls_016"><span class="cls_016">●  Kami memiliki indeks </span><span class="cls_019">Advertisers</span></div>
+<div style="position:absolute;left:106.28px;top:168.99px" class="cls_019"><span class="cls_019">terbesar di wilayah Asia Tenggara</span><span class="cls_016">, jadi</span></div>
+<div style="position:absolute;left:106.28px;top:188.31px" class="cls_016"><span class="cls_016">jika Anda tertarik menghasilkan uang,</span></div>
+<div style="position:absolute;left:106.28px;top:207.63px" class="cls_016"><span class="cls_016">platform kami bisa menjadi solusi.</span></div>
+<div style="position:absolute;left:79.83px;top:236.95px" class="cls_016"><span class="cls_016">●  Di Involve, </span><span class="cls_019">kami akan memberikan</span></div>
+<div style="position:absolute;left:106.28px;top:256.27px" class="cls_019"><span class="cls_019">bantuan untuk membantu Anda</span></div>
+<div style="position:absolute;left:106.28px;top:275.59px" class="cls_019"><span class="cls_019">berkembang</span><span class="cls_016">. Tidak peduli jika Anda</span></div>
+<div style="position:absolute;left:106.28px;top:294.91px" class="cls_016"><span class="cls_016">baru memulai Affiliate Marketing ataupun</span></div>
+<div style="position:absolute;left:106.28px;top:314.23px" class="cls_016"><span class="cls_016">Anda seorang Expert.</span></div>
+<div style="position:absolute;left:79.83px;top:343.55px" class="cls_016"><span class="cls_016">●</span><span class="cls_017">  Hot Campaign: </span><span class="cls_016">Dapatkan offer eksklusif</span></div>
+<div style="position:absolute;left:106.28px;top:362.87px" class="cls_016"><span class="cls_016">khusus untuk CPUC</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:1660px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background05.jpg" width=720 height=405></div>
+<div style="position:absolute;left:244.30px;top:51.95px" class="cls_021"><span class="cls_021">Brands di Involve Asia</span></div>
+<div style="position:absolute;left:237.84px;top:116.32px" class="cls_020"><span class="cls_020">Fashion</span></div>
+<div style="position:absolute;left:41.12px;top:124.96px" class="cls_020"><span class="cls_020">Marketplace</span></div>
+<div style="position:absolute;left:405.00px;top:124.96px" class="cls_020"><span class="cls_020">Electronics</span></div>
+<div style="position:absolute;left:596.54px;top:124.96px" class="cls_020"><span class="cls_020">Services</span></div>
+<div style="position:absolute;left:227.75px;top:133.60px" class="cls_020"><span class="cls_020">& Lifestyle</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:2075px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background06.jpg" width=720 height=405></div>
+<div style="position:absolute;left:177.50px;top:66.58px" class="cls_022"><span class="cls_022">Komisi Menarik dari </span><span class="cls_023">Advertiser</span></div>
+<div style="position:absolute;left:207.30px;top:239.06px" class="cls_024"><span class="cls_024">Hingga</span></div>
+<div style="position:absolute;left:342.05px;top:239.06px" class="cls_024"><span class="cls_024">Hingga</span></div>
+<div style="position:absolute;left:474.26px;top:239.06px" class="cls_024"><span class="cls_024">Hingga</span></div>
+<div style="position:absolute;left:609.43px;top:239.06px" class="cls_024"><span class="cls_024">Hingga</span></div>
+<div style="position:absolute;left:72.76px;top:246.17px" class="cls_024"><span class="cls_024">Hingga</span></div>
+<div style="position:absolute;left:191.54px;top:247.14px" class="cls_025"><span class="cls_025">15%</span></div>
+<div style="position:absolute;left:322.12px;top:247.14px" class="cls_025"><span class="cls_025">9.1%</span></div>
+<div style="position:absolute;left:466.84px;top:247.14px" class="cls_025"><span class="cls_025">7%</span></div>
+<div style="position:absolute;left:593.67px;top:247.14px" class="cls_025"><span class="cls_025">10%</span></div>
+<div style="position:absolute;left:65.34px;top:254.25px" class="cls_025"><span class="cls_025">7%</span></div>
+<div style="position:absolute;left:190.87px;top:281.99px" class="cls_028"><span class="cls_028">commission</span></div>
+<div style="position:absolute;left:325.62px;top:281.99px" class="cls_028"><span class="cls_028">commission</span></div>
+<div style="position:absolute;left:457.83px;top:281.99px" class="cls_028"><span class="cls_028">commission</span></div>
+<div style="position:absolute;left:593.00px;top:281.99px" class="cls_028"><span class="cls_028">commission</span></div>
+<div style="position:absolute;left:56.33px;top:289.10px" class="cls_028"><span class="cls_028">commission</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:2490px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background07.jpg" width=720 height=405></div>
+<div style="position:absolute;left:72.33px;top:49.38px" class="cls_007"><span class="cls_007">Pelajari Bagaimana </span><span class="cls_004">Involve Affiliate Program</span><span class="cls_007"> Bekerja</span></div>
+<div style="position:absolute;left:83.45px;top:128.50px" class="cls_031"><span class="cls_031">Mendaftar</span></div>
+<div style="position:absolute;left:249.87px;top:128.50px" class="cls_031"><span class="cls_031">Bagikan</span></div>
+<div style="position:absolute;left:416.76px;top:128.50px" class="cls_031"><span class="cls_031">Lacak</span></div>
+<div style="position:absolute;left:551.53px;top:128.50px" class="cls_031"><span class="cls_031">Penghasilan</span></div>
+<div style="position:absolute;left:531.65px;top:181.10px" class="cls_029"><span class="cls_029">Melalui Dashboard</span></div>
+<div style="position:absolute;left:55.06px;top:184.10px" class="cls_029"><span class="cls_029">Daftar di </span><A HREF="https://invol.co/cl5as8h">Involve Asia</A> </span></div>
+<div style="position:absolute;left:213.93px;top:184.10px" class="cls_029"><span class="cls_029">Promosikan dan</span></div>
+<div style="position:absolute;left:372.79px;top:184.10px" class="cls_029"><span class="cls_029">Saat Followers Anda</span></div>
+<div style="position:absolute;left:531.65px;top:199.10px" class="cls_029"><span class="cls_029">Involve, Anda bisa</span></div>
+<div style="position:absolute;left:55.06px;top:202.10px" class="cls_135"><span class="cls_135"> </span><A HREF="https://invol.co/cl5as8h">sebagai Publisher baru</A> </div>
+<div style="position:absolute;left:213.93px;top:202.10px" class="cls_029"><span class="cls_029">bagikan tautan unik</span></div>
+<div style="position:absolute;left:372.79px;top:202.10px" class="cls_029"><span class="cls_029">mengklik tautan</span></div>
+<div style="position:absolute;left:531.65px;top:217.10px" class="cls_029"><span class="cls_029">mencari tahu berapa</span></div>
+<div style="position:absolute;left:55.06px;top:220.10px" class="cls_029"><span class="cls_029">untuk mulai</span></div>
+<div style="position:absolute;left:213.93px;top:220.10px" class="cls_029"><span class="cls_029">Anda ke media sosial</span></div>
+<div style="position:absolute;left:372.79px;top:220.10px" class="cls_029"><span class="cls_029">Involve, Ini akan</span></div>
+<div style="position:absolute;left:531.65px;top:235.10px" class="cls_029"><span class="cls_029">banyak klik, konversi,</span></div>
+<div style="position:absolute;left:55.06px;top:238.10px" class="cls_029"><span class="cls_029">menciptakan tautan</span></div>
+<div style="position:absolute;left:213.93px;top:238.10px" class="cls_029"><span class="cls_029">dengan menciptakan</span></div>
+<div style="position:absolute;left:372.79px;top:238.10px" class="cls_029"><span class="cls_029">otomatis terdeteksi</span></div>
+<div style="position:absolute;left:531.65px;top:253.10px" class="cls_029"><span class="cls_029">komisi yang sudah</span></div>
+<div style="position:absolute;left:55.06px;top:256.10px" class="cls_029"><span class="cls_029">Involve.</span></div>
+<div style="position:absolute;left:213.93px;top:256.10px" class="cls_029"><span class="cls_029">konten. Pastikan Anda</span></div>
+<div style="position:absolute;left:372.79px;top:256.10px" class="cls_029"><span class="cls_029">dan terlacak di</span></div>
+<div style="position:absolute;left:531.65px;top:271.10px" class="cls_029"><span class="cls_029">Anda hasilkan melalui</span></div>
+<div style="position:absolute;left:213.93px;top:274.10px" class="cls_029"><span class="cls_029">sudah subscribe ke</span></div>
+<div style="position:absolute;left:372.79px;top:274.10px" class="cls_029"><span class="cls_029">Dashboard Involve</span></div>
+<div style="position:absolute;left:531.65px;top:289.10px" class="cls_029"><span class="cls_029">klik unik di Laporan</span></div>
+<div style="position:absolute;left:213.93px;top:292.10px" class="cls_029"><span class="cls_029">Involve Newsletter</span></div>
+<div style="position:absolute;left:372.79px;top:292.10px" class="cls_029"><span class="cls_029">anda.</span></div>
+<div style="position:absolute;left:531.65px;top:307.10px" class="cls_029"><span class="cls_029">Kinerja.</span></div>
+<div style="position:absolute;left:213.93px;top:310.10px" class="cls_029"><span class="cls_029">untuk mendapatkan</span></div>
+<div style="position:absolute;left:213.93px;top:328.10px" class="cls_029"><span class="cls_029">Info terbaru tentang</span></div>
+<div style="position:absolute;left:213.93px;top:346.10px" class="cls_029"><span class="cls_029">campaign.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:2905px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background08.jpg" width=720 height=405></div>
+<div style="position:absolute;left:45.31px;top:53.74px" class="cls_033"><span class="cls_033">Inisiatif untuk Involve Publishers</span></div>
+<div style="position:absolute;left:45.31px;top:76.96px" class="cls_034"><span class="cls_034">(2021)</span></div>
+<div style="position:absolute;left:102.65px;top:121.99px" class="cls_035"><span class="cls_035">RM5 Bonus</span></div>
+<div style="position:absolute;left:50.50px;top:162.73px" class="cls_032"><span class="cls_032">●  Khusus untuk Publisher</span></div>
+<div style="position:absolute;left:76.95px;top:182.05px" class="cls_032"><span class="cls_032">baru</span></div>
+<div style="position:absolute;left:50.50px;top:211.37px" class="cls_032"><span class="cls_032">●  Hanya tersedia di Malaysia</span></div>
+<div style="position:absolute;left:76.95px;top:230.69px" class="cls_032"><span class="cls_032">dan Filipina</span></div>
+<div style="position:absolute;left:299.67px;top:239.47px" class="cls_036"><span class="cls_036">Tersedia di 3 hari Onboarding Email</span></div>
+<div style="position:absolute;left:50.50px;top:260.01px" class="cls_032"><span class="cls_032">●  Menawarkan CPUC offer</span></div>
+<div style="position:absolute;left:76.95px;top:279.33px" class="cls_032"><span class="cls_032">dimana Publisher</span></div>
+<div style="position:absolute;left:76.95px;top:298.65px" class="cls_032"><span class="cls_032">mendapatkan RM5 Bonus</span></div>
+<div style="position:absolute;left:76.95px;top:317.97px" class="cls_032"><span class="cls_032">untuk setiap 50 klik unik.</span></div>
+<div style="position:absolute;left:46.81px;top:372.47px" class="cls_037"><span class="cls_037">*Akan segera hadir untuk Indonesia & Thailand</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:3320px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background09.jpg" width=720 height=405></div>
+<div style="position:absolute;left:45.31px;top:53.74px" class="cls_033"><span class="cls_033">Inisiatif untuk Involve Publishers</span></div>
+<div style="position:absolute;left:45.31px;top:76.96px" class="cls_034"><span class="cls_034">(2021)</span></div>
+<div style="position:absolute;left:75.04px;top:121.99px" class="cls_035"><span class="cls_035">Click Offers</span></div>
+<div style="position:absolute;left:51.10px;top:162.77px" class="cls_029"><span class="cls_029">●   Offer dengan bonus CPUC akan memberikan</span></div>
+<div style="position:absolute;left:76.95px;top:180.71px" class="cls_029"><span class="cls_029">insentif untuk setiap klik unik.</span></div>
+<div style="position:absolute;left:51.10px;top:208.65px" class="cls_029"><span class="cls_029">●   Anda akan mendapatkan komisi untuk setiap</span></div>
+<div style="position:absolute;left:76.95px;top:226.59px" class="cls_029"><span class="cls_029">klik unik berdasarkan nilai tampilan Offer.</span></div>
+<div style="position:absolute;left:51.10px;top:254.53px" class="cls_029"><span class="cls_029">●   Untuk Offer tertentu, bonus CPUC memenuhi</span></div>
+<div style="position:absolute;left:76.95px;top:272.47px" class="cls_029"><span class="cls_029">syarat untuk pembayaran yang dipercepat</span></div>
+<div style="position:absolute;left:76.95px;top:290.41px" class="cls_029"><span class="cls_029">paling cepat 30 hari setelah periode Campaign.</span></div>
+<div style="position:absolute;left:51.10px;top:318.35px" class="cls_029"><span class="cls_029">●   Saat ini hanya tersedia untuk Publisher</span></div>
+<div style="position:absolute;left:76.95px;top:336.29px" class="cls_029"><span class="cls_029">Indonesia & Thailand.</span></div>
+<div style="position:absolute;left:46.81px;top:372.47px" class="cls_037"><span class="cls_037">*Akan segera hadir untuk Malaysia & Philippines</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:3735px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background10.jpg" width=720 height=405></div>
+<div style="position:absolute;left:40.95px;top:62.78px" class="cls_039"><span class="cls_039">Bonus</span><span class="cls_040"> offers</span></div>
+<div style="position:absolute;left:45.03px;top:103.52px" class="cls_038"><span class="cls_038">Offer Shopee ID digunakan sebagai conto</span></div>
+<div style="position:absolute;left:45.03px;top:124.37px" class="cls_041"><span class="cls_041">Mekanisme:</span></div>
+<div style="position:absolute;left:439.70px;top:160.91px" class="cls_042"><span class="cls_042">Shopee’s komisi</span></div>
+<div style="position:absolute;left:439.70px;top:172.91px" class="cls_042"><span class="cls_042">dasar </span><span class="cls_043">(untuk</span></div>
+<div style="position:absolute;left:439.70px;top:184.91px" class="cls_043"><span class="cls_043">semua produk)</span></div>
+<div style="position:absolute;left:155.42px;top:205.82px" class="cls_044"><span class="cls_044">+</span></div>
+<div style="position:absolute;left:77.18px;top:238.46px" class="cls_032"><span class="cls_032">Offer</span></div>
+<div style="position:absolute;left:219.13px;top:238.46px" class="cls_032"><span class="cls_032">Offer</span></div>
+<div style="position:absolute;left:70.44px;top:253.46px" class="cls_045"><span class="cls_045">komisi</span></div>
+<div style="position:absolute;left:212.39px;top:253.46px" class="cls_045"><span class="cls_045">komisi</span></div>
+<div style="position:absolute;left:75.11px;top:268.46px" class="cls_032"><span class="cls_032">dasar</span></div>
+<div style="position:absolute;left:215.49px;top:268.46px" class="cls_032"><span class="cls_032">bonus</span></div>
+<div style="position:absolute;left:38.78px;top:318.95px" class="cls_046"><span class="cls_046">*Hanya berlaku untuk offer tertentu</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:4150px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background11.jpg" width=720 height=405></div>
+<div style="position:absolute;left:40.95px;top:62.78px" class="cls_039"><span class="cls_039">Bonus</span><span class="cls_040"> offers</span></div>
+<div style="position:absolute;left:43.13px;top:97.17px" class="cls_047"><span class="cls_047">Bagaimana Caranya?</span></div>
+<div style="position:absolute;left:43.13px;top:120.29px" class="cls_032"><span class="cls_032">Audiens Anda akan membuat sebuah</span></div>
+<div style="position:absolute;left:591.67px;top:123.00px" class="cls_042"><span class="cls_042">Campaign tertentu</span></div>
+<div style="position:absolute;left:591.67px;top:135.00px" class="cls_042"><span class="cls_042">dengan 3.5% bonus</span></div>
+<div style="position:absolute;left:43.13px;top:135.41px" class="cls_032"><span class="cls_032">order pada bonus store.</span></div>
+<div style="position:absolute;left:591.67px;top:147.00px" class="cls_042"><span class="cls_042">komisi</span></div>
+<div style="position:absolute;left:43.13px;top:158.94px" class="cls_048"><span class="cls_048">Eg:</span></div>
+<div style="position:absolute;left:96.02px;top:194.95px" class="cls_048"><span class="cls_048">Followers Anda membeli dari</span></div>
+<div style="position:absolute;left:96.02px;top:208.45px" class="cls_048"><span class="cls_048">Philips</span></div>
+<div style="position:absolute;left:96.02px;top:254.34px" class="cls_048"><span class="cls_048">Kamu akan menerima:</span></div>
+<div style="position:absolute;left:96.02px;top:267.84px" class="cls_049"><span class="cls_049">1.4%*</span><span class="cls_050">(Shopee komisi dasar)</span></div>
+<div style="position:absolute;left:96.02px;top:281.34px" class="cls_049"><span class="cls_049">+ 3.5% </span><span class="cls_050">(Komisi bonus dari Philips</span></div>
+<div style="position:absolute;left:96.02px;top:294.84px" class="cls_050"><span class="cls_050">Indonesia)</span></div>
+<div style="position:absolute;left:43.13px;top:373.16px" class="cls_046"><span class="cls_046">*Komisi sama untuk setiap produk</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:4565px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background12.jpg" width=720 height=405></div>
+<div style="position:absolute;left:40.95px;top:62.78px" class="cls_039"><span class="cls_039">Bonus</span><span class="cls_040"> offers</span></div>
+<div style="position:absolute;left:43.13px;top:97.17px" class="cls_047"><span class="cls_047">Bagaimana Caranya?</span></div>
+<div style="position:absolute;left:43.13px;top:120.29px" class="cls_032"><span class="cls_032">Audiens Anda akan membuat sebuah</span></div>
+<div style="position:absolute;left:43.13px;top:135.41px" class="cls_032"><span class="cls_032">order pada bonus store.</span></div>
+<div style="position:absolute;left:66.27px;top:173.82px" class="cls_014"><span class="cls_014">Jika Audiens anda membeli</span></div>
+<div style="position:absolute;left:119.85px;top:187.86px" class="cls_014"><span class="cls_014">produk ini</span></div>
+<div style="position:absolute;left:565.80px;top:200.11px" class="cls_042"><span class="cls_042">Eg: Followers Anda</span></div>
+<div style="position:absolute;left:565.80px;top:212.11px" class="cls_042"><span class="cls_042">membeli produk ini.</span></div>
+<div style="position:absolute;left:73.50px;top:219.90px" class="cls_051"><span class="cls_051">Total item</span></div>
+<div style="position:absolute;left:179.10px;top:219.90px" class="cls_024"><span class="cls_024">IDR721.000</span></div>
+<div style="position:absolute;left:65.08px;top:246.30px" class="cls_051"><span class="cls_051">Komisi untuk</span></div>
+<div style="position:absolute;left:162.72px;top:246.30px" class="cls_024"><span class="cls_024">2.1% </span><span class="cls_052">(untuk semua</span></div>
+<div style="position:absolute;left:59.52px;top:258.30px" class="cls_051"><span class="cls_051">pelanggan baru</span></div>
+<div style="position:absolute;left:188.83px;top:258.30px" class="cls_052"><span class="cls_052">produk)</span></div>
+<div style="position:absolute;left:52.58px;top:295.05px" class="cls_051"><span class="cls_051">Bonus Komisi dari</span></div>
+<div style="position:absolute;left:188.68px;top:297.85px" class="cls_053"><span class="cls_053">3.5%</span></div>
+<div style="position:absolute;left:77.02px;top:307.05px" class="cls_051"><span class="cls_051">Huggies</span></div>
+<div style="position:absolute;left:59.24px;top:343.80px" class="cls_051"><span class="cls_051">Komisi per item</span></div>
+<div style="position:absolute;left:181.88px;top:343.80px" class="cls_024"><span class="cls_024">IDR40.376</span></div>
+<div style="position:absolute;left:43.13px;top:373.16px" class="cls_046"><span class="cls_046">*Tergantung pada tipe pelanggan</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:4980px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background13.jpg" width=720 height=405></div>
+<div style="position:absolute;left:278.61px;top:51.01px" class="cls_055"><span class="cls_055">Newsletter</span></div>
+<div style="position:absolute;left:170.04px;top:51.84px" class="cls_055"><span class="cls_055">Exposure di</span></div>
+<div style="position:absolute;left:380.47px;top:57.76px" class="cls_055"><span class="cls_055">Click Offers</span></div>
+<div style="position:absolute;left:169.62px;top:65.34px" class="cls_055"><span class="cls_055">Involve Asia</span></div>
+<div style="position:absolute;left:280.46px;top:64.51px" class="cls_055"><span class="cls_055">Mingguan</span></div>
+<div style="position:absolute;left:489.30px;top:70.02px" class="cls_055"><span class="cls_055">Bonus Offers</span></div>
+<div style="position:absolute;left:63.66px;top:77.35px" class="cls_055"><span class="cls_055">Dapatkan</span></div>
+<div style="position:absolute;left:189.89px;top:78.84px" class="cls_055"><span class="cls_055">blog</span></div>
+<div style="position:absolute;left:48.70px;top:90.85px" class="cls_055"><span class="cls_055">produk dengan</span></div>
+<div style="position:absolute;left:45.03px;top:104.35px" class="cls_055"><span class="cls_055">performa terbaik</span></div>
+<div style="position:absolute;left:602.54px;top:104.64px" class="cls_055"><span class="cls_055">Express</span></div>
+<div style="position:absolute;left:59.69px;top:117.85px" class="cls_055"><span class="cls_055">di halaman</span></div>
+<div style="position:absolute;left:594.66px;top:118.14px" class="cls_055"><span class="cls_055">Withdrawal</span></div>
+<div style="position:absolute;left:61.21px;top:131.35px" class="cls_055"><span class="cls_055">Advertiser</span></div>
+<div style="position:absolute;left:630.85px;top:205.36px" class="cls_055"><span class="cls_055">Kode</span></div>
+<div style="position:absolute;left:40.59px;top:210.15px" class="cls_055"><span class="cls_055">Promo codes</span></div>
+<div style="position:absolute;left:619.23px;top:218.86px" class="cls_055"><span class="cls_055">Exclusive</span></div>
+<div style="position:absolute;left:45.48px;top:223.65px" class="cls_055"><span class="cls_055">& vouchers</span></div>
+<div style="position:absolute;left:212.02px;top:222.24px" class="cls_054"><span class="cls_054">Apa yang membuat kami berbeda?</span></div>
+<div style="position:absolute;left:117.03px;top:296.43px" class="cls_055"><span class="cls_055">Shopee</span></div>
+<div style="position:absolute;left:547.25px;top:300.26px" class="cls_055"><span class="cls_055">Mendapatkan</span></div>
+<div style="position:absolute;left:112.75px;top:309.93px" class="cls_055"><span class="cls_055">& Lazada</span></div>
+<div style="position:absolute;left:338.93px;top:311.91px" class="cls_055"><span class="cls_055">Upsized</span></div>
+<div style="position:absolute;left:553.36px;top:313.76px" class="cls_055"><span class="cls_055">komisi dari</span></div>
+<div style="position:absolute;left:215.76px;top:318.66px" class="cls_055"><span class="cls_055">Akses untuk</span></div>
+<div style="position:absolute;left:116.72px;top:323.43px" class="cls_055"><span class="cls_055">Affiliate</span></div>
+<div style="position:absolute;left:327.02px;top:325.41px" class="cls_055"><span class="cls_055">Commission</span></div>
+<div style="position:absolute;left:432.79px;top:329.24px" class="cls_055"><span class="cls_055">Membership</span></div>
+<div style="position:absolute;left:539.32px;top:327.26px" class="cls_055"><span class="cls_055">berbagai offer di</span></div>
+<div style="position:absolute;left:223.08px;top:332.16px" class="cls_055"><span class="cls_055">Exclusive</span></div>
+<div style="position:absolute;left:114.28px;top:336.93px" class="cls_055"><span class="cls_055">Program</span></div>
+<div style="position:absolute;left:332.21px;top:338.91px" class="cls_055"><span class="cls_055">untuk CPS</span></div>
+<div style="position:absolute;left:434.62px;top:342.74px" class="cls_055"><span class="cls_055">Programme</span></div>
+<div style="position:absolute;left:544.82px;top:340.76px" class="cls_055"><span class="cls_055">seluruh dunia.</span></div>
+<div style="position:absolute;left:218.82px;top:345.66px" class="cls_055"><span class="cls_055">Campaigns</span></div>
+<div style="position:absolute;left:343.81px;top:352.41px" class="cls_055"><span class="cls_055">Offers</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:5395px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background14.jpg" width=720 height=405></div>
+<div style="position:absolute;left:238.40px;top:42.45px" class="cls_057"><span class="cls_057">Berapa yang kamu bisa </span><span class="cls_058">hasilkan?</span></div>
+<div style="position:absolute;left:238.40px;top:79.20px" class="cls_056"><span class="cls_056">Example: Pomelo Fashion</span></div>
+<div style="position:absolute;left:251.93px;top:124.72px" class="cls_059"><span class="cls_059">Jika audiens anda adalah</span></div>
+<div style="position:absolute;left:458.64px;top:124.72px" class="cls_059"><span class="cls_059">Jika audiens anda adalah</span></div>
+<div style="position:absolute;left:284.22px;top:141.52px" class="cls_059"><span class="cls_059">pelanggan baru</span></div>
+<div style="position:absolute;left:490.14px;top:141.52px" class="cls_059"><span class="cls_059">pelanggan lama</span></div>
+<div style="position:absolute;left:257.06px;top:181.54px" class="cls_060"><span class="cls_060">Total items</span></div>
+<div style="position:absolute;left:350.63px;top:181.54px" class="cls_028"><span class="cls_028">IDR 998,300</span></div>
+<div style="position:absolute;left:463.77px;top:181.54px" class="cls_060"><span class="cls_060">Total items</span></div>
+<div style="position:absolute;left:557.34px;top:181.54px" class="cls_028"><span class="cls_028">IDR 998,300</span></div>
+<div style="position:absolute;left:252.28px;top:223.56px" class="cls_060"><span class="cls_060">Commission</span></div>
+<div style="position:absolute;left:459.00px;top:223.57px" class="cls_060"><span class="cls_060">Commission</span></div>
+<div style="position:absolute;left:266.96px;top:237.96px" class="cls_060"><span class="cls_060">for new</span></div>
+<div style="position:absolute;left:462.66px;top:237.97px" class="cls_060"><span class="cls_060">for existing</span></div>
+<div style="position:absolute;left:371.31px;top:234.12px" class="cls_061"><span class="cls_061">6%</span></div>
+<div style="position:absolute;left:578.02px;top:234.13px" class="cls_061"><span class="cls_061">4%</span></div>
+<div style="position:absolute;left:261.28px;top:252.36px" class="cls_060"><span class="cls_060">customer</span></div>
+<div style="position:absolute;left:467.99px;top:252.37px" class="cls_060"><span class="cls_060">customer</span></div>
+<div style="position:absolute;left:272.62px;top:295.69px" class="cls_060"><span class="cls_060">Items</span></div>
+<div style="position:absolute;left:479.33px;top:295.69px" class="cls_060"><span class="cls_060">Items</span></div>
+<div style="position:absolute;left:343.86px;top:300.33px" class="cls_062"><span class="cls_062">IDR 59,898</span></div>
+<div style="position:absolute;left:550.57px;top:300.33px" class="cls_062"><span class="cls_062">IDR 39,932</span></div>
+<div style="position:absolute;left:252.28px;top:310.09px" class="cls_060"><span class="cls_060">Commission</span></div>
+<div style="position:absolute;left:459.00px;top:310.09px" class="cls_060"><span class="cls_060">Commission</span></div>
+<div style="position:absolute;left:247.03px;top:345.43px" class="cls_063"><span class="cls_063">*komisi tergantung offer</span></div>
+<div style="position:absolute;left:39.18px;top:379.22px" class="cls_064"><span class="cls_064">Audiens checkout bag</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:5810px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background15.jpg" width=720 height=405></div>
+<div style="position:absolute;left:139.96px;top:28.37px" class="cls_065"><span class="cls_065">Berbagai Offer yang Tersedia di Involve Asia</span></div>
+<div style="position:absolute;left:99.19px;top:57.55px" class="cls_066"><span class="cls_066">Kamu bisa mempromosikan lebih dari satu offer dalam waktu bersamaan</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:6225px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background16.jpg" width=720 height=405></div>
+<div style="position:absolute;left:69.20px;top:59.58px" class="cls_040"><span class="cls_040">Bagaimana cara menghasilkan uang bersama Involve Asia?</span></div>
+<div style="position:absolute;left:69.20px;top:89.21px" class="cls_068"><span class="cls_068">CPS (Cost per Sale)</span></div>
+<div style="position:absolute;left:69.20px;top:127.76px" class="cls_067"><span class="cls_067">Dapatkan komisi untuk setiap penjualan sukses, bonus komisi hingga insentif</span></div>
+<div style="position:absolute;left:69.20px;top:149.84px" class="cls_067"><span class="cls_067">menarik.</span></div>
+<div style="position:absolute;left:27.34px;top:256.20px" class="cls_069"><span class="cls_069">Bagikan</span></div>
+<div style="position:absolute;left:192.63px;top:256.20px" class="cls_069"><span class="cls_069">Klik</span></div>
+<div style="position:absolute;left:412.14px;top:256.20px" class="cls_069"><span class="cls_069">Pesan</span></div>
+<div style="position:absolute;left:580.02px;top:256.20px" class="cls_069"><span class="cls_069">Penghasilan</span></div>
+<div style="position:absolute;left:27.34px;top:283.10px" class="cls_070"><span class="cls_070">Bagikan</span></div>
+<div style="position:absolute;left:192.63px;top:283.18px" class="cls_020"><span class="cls_020">Followers anda</span></div>
+<div style="position:absolute;left:412.14px;top:283.18px" class="cls_020"><span class="cls_020">Sukses</span></div>
+<div style="position:absolute;left:580.02px;top:283.18px" class="cls_020"><span class="cls_020">Dapatkan</span></div>
+<div style="position:absolute;left:192.63px;top:304.78px" class="cls_020"><span class="cls_020">akan mengklik</span></div>
+<div style="position:absolute;left:412.14px;top:304.78px" class="cls_020"><span class="cls_020">melakukan</span></div>
+<div style="position:absolute;left:580.02px;top:304.78px" class="cls_020"><span class="cls_020">komisi setiap</span></div>
+<div style="position:absolute;left:27.34px;top:307.10px" class="cls_070"><span class="cls_070">tautan Involve</span></div>
+<div style="position:absolute;left:192.63px;top:326.38px" class="cls_020"><span class="cls_020">tautan yang sudah</span></div>
+<div style="position:absolute;left:412.14px;top:326.38px" class="cls_020"><span class="cls_020">pembelian</span></div>
+<div style="position:absolute;left:580.02px;top:326.38px" class="cls_020"><span class="cls_020">melakukan</span></div>
+<div style="position:absolute;left:27.34px;top:331.10px" class="cls_070"><span class="cls_070">anda.</span></div>
+<div style="position:absolute;left:192.63px;top:347.98px" class="cls_020"><span class="cls_020">Anda bagikan.</span></div>
+<div style="position:absolute;left:412.14px;top:347.98px" class="cls_020"><span class="cls_020">dari tautan</span></div>
+<div style="position:absolute;left:580.02px;top:347.98px" class="cls_020"><span class="cls_020">pembelian</span></div>
+<div style="position:absolute;left:412.14px;top:369.58px" class="cls_020"><span class="cls_020">Involve anda</span></div>
+<div style="position:absolute;left:580.02px;top:369.58px" class="cls_020"><span class="cls_020">barang</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:6640px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background17.jpg" width=720 height=405></div>
+<div style="position:absolute;left:69.20px;top:59.58px" class="cls_040"><span class="cls_040">Bagaimana cara menghasilkan uang bersama Involve Asia?</span></div>
+<div style="position:absolute;left:69.20px;top:89.21px" class="cls_068"><span class="cls_068">CPA (Cost per Action)</span></div>
+<div style="position:absolute;left:69.20px;top:127.76px" class="cls_067"><span class="cls_067">Komisi  akan  diberikan  setelah  aksi  berhasil.  S&K  berlaku  sesuai  ketentuan</span></div>
+<div style="position:absolute;left:69.20px;top:149.84px" class="cls_067"><span class="cls_067">advertiser.</span></div>
+<div style="position:absolute;left:27.34px;top:256.20px" class="cls_069"><span class="cls_069">Bagikan</span></div>
+<div style="position:absolute;left:192.63px;top:256.20px" class="cls_069"><span class="cls_069">Klik</span></div>
+<div style="position:absolute;left:412.14px;top:256.20px" class="cls_069"><span class="cls_069">Aksi</span></div>
+<div style="position:absolute;left:580.02px;top:256.20px" class="cls_069"><span class="cls_069">Penghasilan</span></div>
+<div style="position:absolute;left:412.14px;top:283.30px" class="cls_003"><span class="cls_003">Followers anda</span></div>
+<div style="position:absolute;left:27.34px;top:283.10px" class="cls_070"><span class="cls_070">Bagikan</span></div>
+<div style="position:absolute;left:192.63px;top:283.18px" class="cls_020"><span class="cls_020">Followers anda</span></div>
+<div style="position:absolute;left:580.02px;top:283.18px" class="cls_020"><span class="cls_020">Dapatkan</span></div>
+<div style="position:absolute;left:412.14px;top:301.30px" class="cls_003"><span class="cls_003">akan melakukan</span></div>
+<div style="position:absolute;left:192.63px;top:304.78px" class="cls_020"><span class="cls_020">akan mengklik</span></div>
+<div style="position:absolute;left:580.02px;top:304.78px" class="cls_020"><span class="cls_020">komisi untuk</span></div>
+<div style="position:absolute;left:27.34px;top:307.10px" class="cls_070"><span class="cls_070">tautan Involve</span></div>
+<div style="position:absolute;left:412.14px;top:319.30px" class="cls_003"><span class="cls_003">aksi. </span><span class="cls_071">(mis.</span></div>
+<div style="position:absolute;left:192.63px;top:326.38px" class="cls_020"><span class="cls_020">tautan yang sudah</span></div>
+<div style="position:absolute;left:580.02px;top:326.38px" class="cls_020"><span class="cls_020">setiap Aksi.</span></div>
+<div style="position:absolute;left:27.34px;top:331.10px" class="cls_070"><span class="cls_070">anda</span></div>
+<div style="position:absolute;left:412.14px;top:337.30px" class="cls_071"><span class="cls_071">Sudah</span></div>
+<div style="position:absolute;left:192.63px;top:347.98px" class="cls_020"><span class="cls_020">kamu bagikan</span></div>
+<div style="position:absolute;left:412.14px;top:355.30px" class="cls_071"><span class="cls_071">mengunduh</span></div>
+<div style="position:absolute;left:412.14px;top:373.30px" class="cls_071"><span class="cls_071">aplikasi)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:7055px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background18.jpg" width=720 height=405></div>
+<div style="position:absolute;left:69.20px;top:59.58px" class="cls_040"><span class="cls_040">Bagaimana cara menghasilkan uang bersama Involve Asia?</span></div>
+<div style="position:absolute;left:69.20px;top:89.21px" class="cls_068"><span class="cls_068">CPUC (Cost per Unique Click)</span></div>
+<div style="position:absolute;left:69.20px;top:127.84px" class="cls_032"><span class="cls_032">Tidak memerlukan aksi ataupun penjualan. Unik klik adalah setiap orang yang mengklik tautan</span></div>
+<div style="position:absolute;left:69.20px;top:147.16px" class="cls_032"><span class="cls_032">untuk pertama kalinya. Untuk pengguna sama yang mengklik tautan tidak akan mendapatkan</span></div>
+<div style="position:absolute;left:69.20px;top:166.48px" class="cls_032"><span class="cls_032">komisi.</span></div>
+<div style="position:absolute;left:27.34px;top:256.20px" class="cls_069"><span class="cls_069">Bagikan</span></div>
+<div style="position:absolute;left:192.63px;top:256.20px" class="cls_069"><span class="cls_069">Klik</span></div>
+<div style="position:absolute;left:413.87px;top:256.20px" class="cls_069"><span class="cls_069">Penghasilan</span></div>
+<div style="position:absolute;left:27.34px;top:283.10px" class="cls_070"><span class="cls_070">Bagikan</span></div>
+<div style="position:absolute;left:192.63px;top:283.18px" class="cls_020"><span class="cls_020">Followers anda</span></div>
+<div style="position:absolute;left:413.87px;top:283.18px" class="cls_020"><span class="cls_020">Dapatkan komisi</span></div>
+<div style="position:absolute;left:192.63px;top:304.78px" class="cls_020"><span class="cls_020">akan mengklik</span></div>
+<div style="position:absolute;left:413.87px;top:304.78px" class="cls_020"><span class="cls_020">tergantung</span></div>
+<div style="position:absolute;left:27.34px;top:307.10px" class="cls_070"><span class="cls_070">tautan Involve</span></div>
+<div style="position:absolute;left:192.63px;top:326.38px" class="cls_020"><span class="cls_020">tautan yang sudah</span></div>
+<div style="position:absolute;left:413.87px;top:326.38px" class="cls_020"><span class="cls_020">persetujuan.</span></div>
+<div style="position:absolute;left:27.34px;top:331.10px" class="cls_070"><span class="cls_070">anda</span></div>
+<div style="position:absolute;left:192.63px;top:347.98px" class="cls_020"><span class="cls_020">kamu bagikan</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:7470px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background19.jpg" width=720 height=405></div>
+<div style="position:absolute;left:465.14px;top:67.60px" class="cls_057"><span class="cls_057">Melacak lewat</span></div>
+<div style="position:absolute;left:465.14px;top:93.52px" class="cls_058"><span class="cls_058">“Cookies”</span></div>
+<div style="position:absolute;left:468.58px;top:155.98px" class="cls_032"><span class="cls_032">Secara   default,   kami   akan</span></div>
+<div style="position:absolute;left:468.58px;top:175.30px" class="cls_032"><span class="cls_032">menempelkan    cookie    pada</span></div>
+<div style="position:absolute;left:468.58px;top:194.62px" class="cls_032"><span class="cls_032">browser  pengguna  selama </span><span class="cls_019"> 7-</span></div>
+<div style="position:absolute;left:468.58px;top:213.94px" class="cls_019"><span class="cls_019">30 hari</span></div>
+<div style="position:absolute;left:468.58px;top:241.26px" class="cls_032"><span class="cls_032">Ini berarti bahwa transaksi tidak</span></div>
+<div style="position:absolute;left:468.58px;top:260.58px" class="cls_032"><span class="cls_032">perlu  terjadi  seketika/langsung</span></div>
+<div style="position:absolute;left:468.58px;top:279.90px" class="cls_032"><span class="cls_032">mereka berkunjung, tetapi akan</span></div>
+<div style="position:absolute;left:468.58px;top:299.22px" class="cls_032"><span class="cls_032">dikaitkan kepada Anda selama</span></div>
+<div style="position:absolute;left:468.58px;top:318.54px" class="cls_032"><span class="cls_032">mereka  melakukan  pembelian</span></div>
+<div style="position:absolute;left:468.58px;top:337.86px" class="cls_032"><span class="cls_032">dalam periode cookie.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:7885px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background20.jpg" width=720 height=405></div>
+<div style="position:absolute;left:162.96px;top:17.40px" class="cls_073"><span class="cls_073">Bagaimana </span><span class="cls_074">“Cookie Tracking”</span><span class="cls_073"> Bekerja di Involve Affiliate Platform?</span></div>
+<div style="position:absolute;left:157.03px;top:70.43px" class="cls_072"><span class="cls_072">Cookies drop</span></div>
+<div style="position:absolute;left:52.08px;top:96.28px" class="cls_017"><span class="cls_017">Emma</span></div>
+<div style="position:absolute;left:241.60px;top:124.01px" class="cls_075"><span class="cls_075">Lynn</span><span class="cls_076"> mengklik tautan</span></div>
+<div style="position:absolute;left:240.55px;top:133.76px" class="cls_076"><span class="cls_076">dan berhasil membuat</span></div>
+<div style="position:absolute;left:416.79px;top:133.76px" class="cls_075"><span class="cls_075">Emma </span><span class="cls_076">menerima komisi</span></div>
+<div style="position:absolute;left:270.76px;top:143.51px" class="cls_076"><span class="cls_076">order</span></div>
+<div style="position:absolute;left:157.03px;top:188.97px" class="cls_072"><span class="cls_072">Cookies drop</span></div>
+<div style="position:absolute;left:241.60px;top:237.39px" class="cls_075"><span class="cls_075">Lynn</span><span class="cls_076"> mengklik tautan</span></div>
+<div style="position:absolute;left:422.49px;top:237.39px" class="cls_075"><span class="cls_075">Lynn</span><span class="cls_076"> membuat order</span></div>
+<div style="position:absolute;left:54.07px;top:238.36px" class="cls_012"><span class="cls_012">Emma</span></div>
+<div style="position:absolute;left:240.32px;top:247.14px" class="cls_076"><span class="cls_076">dan menutup halaman</span></div>
+<div style="position:absolute;left:415.88px;top:247.14px" class="cls_076"><span class="cls_076">pada halaman Advertiser</span></div>
+<div style="position:absolute;left:602.79px;top:247.14px" class="cls_075"><span class="cls_075">Emma </span><span class="cls_076">menerima komisi</span></div>
+<div style="position:absolute;left:262.55px;top:256.89px" class="cls_076"><span class="cls_076">advertiser</span></div>
+<div style="position:absolute;left:429.67px;top:256.89px" class="cls_075"><span class="cls_075">3 hari kemudian</span></div>
+<div style="position:absolute;left:36.00px;top:254.11px" class="cls_012"><span class="cls_012">menciptakan</span></div>
+<div style="position:absolute;left:40.69px;top:269.86px" class="cls_012"><span class="cls_012">konten dan</span></div>
+<div style="position:absolute;left:50.08px;top:285.61px" class="cls_012"><span class="cls_012">bagikan</span></div>
+<div style="position:absolute;left:157.03px;top:296.69px" class="cls_072"><span class="cls_072">Cookies drop</span></div>
+<div style="position:absolute;left:339.95px;top:296.99px" class="cls_072"><span class="cls_072">Cookies stop</span></div>
+<div style="position:absolute;left:32.75px;top:301.36px" class="cls_012"><span class="cls_012">tautan involve</span></div>
+<div style="position:absolute;left:241.60px;top:349.56px" class="cls_075"><span class="cls_075">Lynn </span><span class="cls_076">mengklik tautan</span></div>
+<div style="position:absolute;left:420.72px;top:349.56px" class="cls_075"><span class="cls_075">Lynn </span><span class="cls_076">mengklik </span><span class="cls_075">tautan</span></div>
+<div style="position:absolute;left:239.88px;top:359.31px" class="cls_076"><span class="cls_076">dan browsing halaman</span></div>
+<div style="position:absolute;left:428.77px;top:359.31px" class="cls_075"><span class="cls_075">afiliasi lain</span><span class="cls_076"> untuk</span></div>
+<div style="position:absolute;left:605.90px;top:359.31px" class="cls_075"><span class="cls_075">Gina </span><span class="cls_076">menerima komisi</span></div>
+<div style="position:absolute;left:262.98px;top:369.06px" class="cls_076"><span class="cls_076">yang lain.</span></div>
+<div style="position:absolute;left:432.99px;top:369.06px" class="cls_076"><span class="cls_076">membuat order</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:8300px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background21.jpg" width=720 height=405></div>
+<div style="position:absolute;left:83.27px;top:43.58px" class="cls_077"><span class="cls_077">Apa itu Validasi dan Ketentuan Pembayaran?</span></div>
+<div style="position:absolute;left:149.00px;top:114.05px" class="cls_078"><span class="cls_078">Validasi</span></div>
+<div style="position:absolute;left:380.92px;top:114.05px" class="cls_078"><span class="cls_078">Ketentuan Pembayaran</span></div>
+<div style="position:absolute;left:149.00px;top:153.69px" class="cls_067"><span class="cls_067">Saat penjualan</span></div>
+<div style="position:absolute;left:391.81px;top:153.69px" class="cls_067"><span class="cls_067">Setiap advertiser akan</span></div>
+<div style="position:absolute;left:149.00px;top:175.77px" class="cls_067"><span class="cls_067">(konversi) dilakukan -</span></div>
+<div style="position:absolute;left:391.81px;top:175.77px" class="cls_067"><span class="cls_067">memiliki syarat</span></div>
+<div style="position:absolute;left:149.00px;top:197.85px" class="cls_067"><span class="cls_067">Advertiser perlu diberi</span></div>
+<div style="position:absolute;left:391.81px;top:197.85px" class="cls_067"><span class="cls_067">pembayaran yang</span></div>
+<div style="position:absolute;left:149.00px;top:219.93px" class="cls_067"><span class="cls_067">waktu untuk</span></div>
+<div style="position:absolute;left:391.81px;top:219.93px" class="cls_067"><span class="cls_067">berbeda. Ini berlaku</span></div>
+<div style="position:absolute;left:149.00px;top:242.01px" class="cls_067"><span class="cls_067">memvalidasi penjualan.</span></div>
+<div style="position:absolute;left:391.81px;top:242.01px" class="cls_067"><span class="cls_067">setelah konversi</span></div>
+<div style="position:absolute;left:149.00px;top:264.09px" class="cls_067"><span class="cls_067">Ini untuk memastikan</span></div>
+<div style="position:absolute;left:391.81px;top:264.09px" class="cls_067"><span class="cls_067">divalidasi dan siap</span></div>
+<div style="position:absolute;left:149.00px;top:286.17px" class="cls_067"><span class="cls_067">penjualan itu nyata.</span></div>
+<div style="position:absolute;left:391.81px;top:286.17px" class="cls_067"><span class="cls_067">dibayar.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:8715px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background22.jpg" width=720 height=405></div>
+<div style="position:absolute;left:438.86px;top:1.31px" class="cls_080"><span class="cls_080">+ Payment term starts on 1st March (45 validation days + 30 payment</span></div>
+<div style="position:absolute;left:537.41px;top:9.71px" class="cls_080"><span class="cls_080">days).</span></div>
+<div style="position:absolute;left:79.14px;top:39.36px" class="cls_040"><span class="cls_040">Contoh Timeline Validasi & Ketentuan Pembayaran</span></div>
+<div style="position:absolute;left:79.14px;top:75.95px" class="cls_045"><span class="cls_045">Lazada for KOL (ID)</span></div>
+<div style="position:absolute;left:79.14px;top:91.34px" class="cls_028"><span class="cls_028">Validasi membutuhkan 45 hari dan pembayaran membutuhkan 60 hari.</span></div>
+<div style="position:absolute;left:605.53px;top:125.79px" class="cls_081"><span class="cls_081">Validation Term </span><span class="cls_076"> Durasi</span></div>
+<div style="position:absolute;left:605.53px;top:136.83px" class="cls_076"><span class="cls_076">yang dibutuhkan oleh</span></div>
+<div style="position:absolute;left:605.53px;top:147.87px" class="cls_076"><span class="cls_076">advertiser untuk meninjau</span></div>
+<div style="position:absolute;left:605.53px;top:158.91px" class="cls_076"><span class="cls_076">semua konversi</span></div>
+<div style="position:absolute;left:83.22px;top:144.81px" class="cls_079"><span class="cls_079">Feb</span></div>
+<div style="position:absolute;left:213.23px;top:144.81px" class="cls_079"><span class="cls_079">Mar</span></div>
+<div style="position:absolute;left:343.71px;top:144.81px" class="cls_079"><span class="cls_079">Apr</span></div>
+<div style="position:absolute;left:466.25px;top:144.81px" class="cls_079"><span class="cls_079">May</span></div>
+<div style="position:absolute;left:605.53px;top:169.95px" class="cls_076"><span class="cls_076">"Tertunda" yang dibuat</span></div>
+<div style="position:absolute;left:605.53px;top:180.99px" class="cls_076"><span class="cls_076">oleh Publisher. Periode</span></div>
+<div style="position:absolute;left:85.59px;top:193.06px" class="cls_082"><span class="cls_082">W1</span></div>
+<div style="position:absolute;left:119.66px;top:193.06px" class="cls_082"><span class="cls_082">W2</span></div>
+<div style="position:absolute;left:151.63px;top:193.06px" class="cls_082"><span class="cls_082">W3</span></div>
+<div style="position:absolute;left:186.28px;top:193.06px" class="cls_082"><span class="cls_082">W4</span></div>
+<div style="position:absolute;left:211.59px;top:193.06px" class="cls_082"><span class="cls_082">W1</span></div>
+<div style="position:absolute;left:245.66px;top:193.06px" class="cls_082"><span class="cls_082">W2</span></div>
+<div style="position:absolute;left:277.63px;top:193.06px" class="cls_082"><span class="cls_082">W3</span></div>
+<div style="position:absolute;left:312.28px;top:193.06px" class="cls_082"><span class="cls_082">W4</span></div>
+<div style="position:absolute;left:337.59px;top:193.06px" class="cls_082"><span class="cls_082">W1</span></div>
+<div style="position:absolute;left:371.66px;top:193.06px" class="cls_082"><span class="cls_082">W2</span></div>
+<div style="position:absolute;left:403.63px;top:193.06px" class="cls_082"><span class="cls_082">W3</span></div>
+<div style="position:absolute;left:438.28px;top:193.06px" class="cls_082"><span class="cls_082">W4</span></div>
+<div style="position:absolute;left:469.59px;top:193.06px" class="cls_082"><span class="cls_082">W1</span></div>
+<div style="position:absolute;left:503.66px;top:193.06px" class="cls_082"><span class="cls_082">W2</span></div>
+<div style="position:absolute;left:535.63px;top:193.06px" class="cls_082"><span class="cls_082">W3</span></div>
+<div style="position:absolute;left:570.28px;top:193.06px" class="cls_082"><span class="cls_082">W4</span></div>
+<div style="position:absolute;left:605.53px;top:192.03px" class="cls_076"><span class="cls_076">validasi mulai dihitung</span></div>
+<div style="position:absolute;left:80.52px;top:205.15px" class="cls_083"><span class="cls_083">1st - 28th Feb:</span><span class="cls_084"> Konversi dibuat oleh</span></div>
+<div style="position:absolute;left:605.53px;top:203.07px" class="cls_076"><span class="cls_076">pada tanggal 1 konversi</span></div>
+<div style="position:absolute;left:80.52px;top:213.40px" class="cls_084"><span class="cls_084">audiens anda dan berhasil terlacak</span></div>
+<div style="position:absolute;left:605.53px;top:214.11px" class="cls_076"><span class="cls_076">bulan berikutnya.</span></div>
+<div style="position:absolute;left:80.52px;top:221.65px" class="cls_084"><span class="cls_084">di laporan konversi</span></div>
+<div style="position:absolute;left:211.03px;top:224.71px" class="cls_083"><span class="cls_083">1st March: </span><span class="cls_084">Validasi dimulai 45 hari</span></div>
+<div style="position:absolute;left:374.42px;top:232.59px" class="cls_083"><span class="cls_083">15 April:</span><span class="cls_084"> Pembayaran</span></div>
+<div style="position:absolute;left:605.53px;top:236.19px" class="cls_081"><span class="cls_081">Payment Term</span></div>
+<div style="position:absolute;left:385.02px;top:240.84px" class="cls_084"><span class="cls_084">dimulai 30 hari</span></div>
+<div style="position:absolute;left:605.53px;top:247.23px" class="cls_076"><span class="cls_076">periode waktu untuk</span></div>
+<div style="position:absolute;left:500.30px;top:251.03px" class="cls_083"><span class="cls_083">15th May:</span><span class="cls_084"> Pembayaran</span></div>
+<div style="position:absolute;left:501.63px;top:259.28px" class="cls_084"><span class="cls_084">selesai setelah 30 hari</span></div>
+<div style="position:absolute;left:605.53px;top:256.83px" class="cls_076"><span class="cls_076">memproses pembayaran</span></div>
+<div style="position:absolute;left:605.53px;top:266.43px" class="cls_076"><span class="cls_076">Anda dari Advertiser</span></div>
+<div style="position:absolute;left:526.86px;top:301.16px" class="cls_083"><span class="cls_083">17th - 21st May</span></div>
+<div style="position:absolute;left:526.86px;top:309.41px" class="cls_084"><span class="cls_084">Payout</span></div>
+<div style="position:absolute;left:617.75px;top:310.17px" class="cls_085"><span class="cls_085">Lazada</span></div>
+<div style="position:absolute;left:617.75px;top:321.21px" class="cls_085"><span class="cls_085">memproses</span></div>
+<div style="position:absolute;left:617.75px;top:332.25px" class="cls_085"><span class="cls_085">pembayaran lewat</span></div>
+<div style="position:absolute;left:617.75px;top:343.29px" class="cls_085"><span class="cls_085">platform IA dan</span></div>
+<div style="position:absolute;left:617.75px;top:354.33px" class="cls_085"><span class="cls_085">uang akan diterima</span></div>
+<div style="position:absolute;left:617.75px;top:365.37px" class="cls_085"><span class="cls_085">melalui akun</span></div>
+<div style="position:absolute;left:80.52px;top:369.13px" class="cls_086"><span class="cls_086">*Ketentuan Validation & Payment berbeda-beda untuk setiap Advertiser</span></div>
+<div style="position:absolute;left:617.75px;top:376.41px" class="cls_085"><span class="cls_085">Anda..</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:9130px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background23.jpg" width=720 height=405></div>
+<div style="position:absolute;left:283.63px;top:29.95px" class="cls_087"><span class="cls_087">Cookies akan berjalan </span><span class="cls_088">saat</span></div>
+<div style="position:absolute;left:280.28px;top:44.20px" class="cls_088"><span class="cls_088">audiens anda mengklik tautan</span></div>
+<div style="position:absolute;left:340.99px;top:58.45px" class="cls_088"><span class="cls_088">Involve</span></div>
+<div style="position:absolute;left:128.57px;top:105.53px" class="cls_087"><span class="cls_087">Tautan dibagikan</span></div>
+<div style="position:absolute;left:501.69px;top:114.74px" class="cls_088"><span class="cls_088">Audiens anda </span><span class="cls_089">berhasil</span></div>
+<div style="position:absolute;left:143.78px;top:119.78px" class="cls_088"><span class="cls_088">lewat konten</span></div>
+<div style="position:absolute;left:508.71px;top:128.99px" class="cls_089"><span class="cls_089">membuat pesanan.</span></div>
+<div style="position:absolute;left:505.36px;top:143.24px" class="cls_088"><span class="cls_088">Konversi telah dibuat.</span></div>
+<div style="position:absolute;left:119.92px;top:200.68px" class="cls_017"><span class="cls_017">Penarikan </span><span class="cls_016">melalui</span></div>
+<div style="position:absolute;left:319.37px;top:192.21px" class="cls_033"><span class="cls_033">Menarik</span></div>
+<div style="position:absolute;left:142.47px;top:217.18px" class="cls_016"><span class="cls_016">permintaan</span></div>
+<div style="position:absolute;left:299.36px;top:214.89px" class="cls_033"><span class="cls_033">penghasilan</span></div>
+<div style="position:absolute;left:514.41px;top:246.00px" class="cls_087"><span class="cls_087">Ketentuan validasi dan</span></div>
+<div style="position:absolute;left:75.77px;top:259.62px" class="cls_090"><span class="cls_090">Ada</span><span class="cls_089"> 2 tipe</span><span class="cls_090"> penarikan:</span></div>
+<div style="position:absolute;left:497.72px;top:260.25px" class="cls_087"><span class="cls_087">pembayaran </span><span class="cls_088">dimulai setelah 1</span></div>
+<div style="position:absolute;left:516.72px;top:274.50px" class="cls_088"><span class="cls_088">bulan sesudah konversi</span></div>
+<div style="position:absolute;left:88.94px;top:290.50px" class="cls_075"><span class="cls_075">●</span></div>
+<div style="position:absolute;left:111.77px;top:288.50px" class="cls_091"><span class="cls_091">Standard Withdrawal</span></div>
+<div style="position:absolute;left:88.94px;top:302.50px" class="cls_075"><span class="cls_075">●</span></div>
+<div style="position:absolute;left:111.77px;top:300.50px" class="cls_091"><span class="cls_091">Express Withdrawal</span></div>
+<div style="position:absolute;left:284.45px;top:327.43px" class="cls_088"><span class="cls_088">Advertiser </span><span class="cls_089">memproses pembayaran</span><span class="cls_088"> lewat</span></div>
+<div style="position:absolute;left:266.44px;top:341.68px" class="cls_088"><span class="cls_088">platform IA dan kamu </span><span class="cls_089">menerima uang</span><span class="cls_088"> lewat akun</span></div>
+<div style="position:absolute;left:378.82px;top:355.93px" class="cls_088"><span class="cls_088">Involve.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:9545px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background24.jpg" width=720 height=405></div>
+<div style="position:absolute;left:180.80px;top:39.10px" class="cls_039"><span class="cls_039">Standard Withdrawal</span></div>
+<div style="position:absolute;left:182.32px;top:74.60px" class="cls_028"><span class="cls_028">Minimal penarikan adalah</span><span class="cls_092"> MYR 80.00 untuk transfer bank </span><span class="cls_028">dan</span></div>
+<div style="position:absolute;left:182.32px;top:91.16px" class="cls_092"><span class="cls_092">MYR 40.00 untuk PayPal.</span></div>
+<div style="position:absolute;left:175.95px;top:191.17px" class="cls_009"><span class="cls_009">Konversi</span></div>
+<div style="position:absolute;left:286.95px;top:191.17px" class="cls_009"><span class="cls_009">Validasi dan</span></div>
+<div style="position:absolute;left:399.50px;top:191.17px" class="cls_009"><span class="cls_009">Validasi dan</span></div>
+<div style="position:absolute;left:512.84px;top:191.17px" class="cls_009"><span class="cls_009">Daftar untuk</span></div>
+<div style="position:absolute;left:643.97px;top:191.17px" class="cls_009"><span class="cls_009">Terima</span></div>
+<div style="position:absolute;left:183.62px;top:205.57px" class="cls_009"><span class="cls_009">terjadi</span></div>
+<div style="position:absolute;left:293.29px;top:205.57px" class="cls_009"><span class="cls_009">ketentuan</span></div>
+<div style="position:absolute;left:405.84px;top:205.57px" class="cls_009"><span class="cls_009">ketentuan</span></div>
+<div style="position:absolute;left:519.83px;top:205.57px" class="cls_009"><span class="cls_009">penarikan</span></div>
+<div style="position:absolute;left:644.19px;top:205.57px" class="cls_009"><span class="cls_009">komisi</span></div>
+<div style="position:absolute;left:286.28px;top:219.97px" class="cls_009"><span class="cls_009">pembayaran</span></div>
+<div style="position:absolute;left:398.83px;top:219.97px" class="cls_009"><span class="cls_009">pembayaran</span></div>
+<div style="position:absolute;left:300.63px;top:234.37px" class="cls_009"><span class="cls_009">dimulai</span></div>
+<div style="position:absolute;left:414.16px;top:234.37px" class="cls_009"><span class="cls_009">selesai</span></div>
+<div style="position:absolute;left:302.61px;top:270.69px" class="cls_057"><span class="cls_057">Proses selama</span><span class="cls_093"> 90+ hari</span></div>
+<div style="position:absolute;left:182.30px;top:381.38px" class="cls_011"><span class="cls_011">*untuk penarikan akan mengikuti nilai mata uang lokal yang berlaku</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:9960px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background25.jpg" width=720 height=405></div>
+<div style="position:absolute;left:181.31px;top:39.10px" class="cls_039"><span class="cls_039">Express Withdrawal</span></div>
+<div style="position:absolute;left:182.82px;top:70.97px" class="cls_096"><span class="cls_096">Dibayarkan lebih </span><span class="cls_097">AWAL</span><span class="cls_096"> (exclusive untuk Involve</span></div>
+<div style="position:absolute;left:182.82px;top:87.29px" class="cls_096"><span class="cls_096">Asia)</span></div>
+<div style="position:absolute;left:184.42px;top:185.17px" class="cls_009"><span class="cls_009">Konversi</span></div>
+<div style="position:absolute;left:303.51px;top:185.17px" class="cls_102"><span class="cls_102">Mendaftar untuk</span></div>
+<div style="position:absolute;left:449.19px;top:185.17px" class="cls_009"><span class="cls_009">Menerima</span></div>
+<div style="position:absolute;left:570.51px;top:192.88px" class="cls_098"><span class="cls_098">Tanpa Ketentuan</span></div>
+<div style="position:absolute;left:184.42px;top:199.57px" class="cls_009"><span class="cls_009">berhasil</span></div>
+<div style="position:absolute;left:326.83px;top:199.57px" class="cls_102"><span class="cls_102">Express</span></div>
+<div style="position:absolute;left:457.19px;top:199.57px" class="cls_009"><span class="cls_009">Komisi</span></div>
+<div style="position:absolute;left:582.92px;top:206.08px" class="cls_098"><span class="cls_098">Validasi dan</span></div>
+<div style="position:absolute;left:318.23px;top:213.97px" class="cls_102"><span class="cls_102">Withdrawal</span></div>
+<div style="position:absolute;left:582.00px;top:219.28px" class="cls_098"><span class="cls_098">Pembayaran</span></div>
+<div style="position:absolute;left:558.07px;top:250.77px" class="cls_099"><span class="cls_099">Lewati waktu menunggu</span></div>
+<div style="position:absolute;left:274.99px;top:242.00px" class="cls_094"><span class="cls_094">15 Hari</span><span class="cls_095"> proses*</span></div>
+<div style="position:absolute;left:553.40px;top:263.37px" class="cls_099"><span class="cls_099">dan kamu bisa dibayarkan</span></div>
+<div style="position:absolute;left:347.98px;top:279.47px" class="cls_100"><span class="cls_100">*S&K berlaku</span></div>
+<div style="position:absolute;left:591.34px;top:275.97px" class="cls_099"><span class="cls_099">lebih awal</span></div>
+<div style="position:absolute;left:163.75px;top:347.99px" class="cls_101"><span class="cls_101">* Tunduk pada biaya pemrosesan dan jumlah pembayaran yang akan diterima akan bersih dari biaya pemrosesan yang dibebankan.</span></div>
+<div style="position:absolute;left:163.75px;top:357.59px" class="cls_101"><span class="cls_101">* IA berhak untuk mengurangi dana yang tersedia dari Publisher pada jumlah saldo terutang, jika jumlah yang dikomitmenkan tidak cukup untuk</span></div>
+<div style="position:absolute;left:163.75px;top:367.19px" class="cls_101"><span class="cls_101">melunasi Penarikan Ekspres yang terutang.</span></div>
+<div style="position:absolute;left:163.75px;top:376.79px" class="cls_101"><span class="cls_101">* IA berhak untuk menarik kembali setiap konversi yang digunakan untuk penggantian jika konversi tersebut kemudian mengubah statusnya</span></div>
+<div style="position:absolute;left:163.75px;top:386.39px" class="cls_101"><span class="cls_101">menjadi ditolak.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:10375px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background26.jpg" width=720 height=405></div>
+<div style="position:absolute;left:53.66px;top:35.80px" class="cls_103"><span class="cls_103">Dapatkan Keuntungan Lebih Dengan Membership Programme</span></div>
+<div style="position:absolute;left:147.07px;top:101.34px" class="cls_035"><span class="cls_035">Benefits</span></div>
+<div style="position:absolute;left:419.48px;top:139.39px" class="cls_035"><span class="cls_035">Bagaimana Involve Membership</span></div>
+<div style="position:absolute;left:455.71px;top:155.89px" class="cls_035"><span class="cls_035">Programme Bekerja?</span></div>
+<div style="position:absolute;left:42.81px;top:189.89px" class="cls_104"><span class="cls_104">Komisi Bonus</span></div>
+<div style="position:absolute;left:185.26px;top:189.89px" class="cls_104"><span class="cls_104">Dibayarkan Lebih</span></div>
+<div style="position:absolute;left:419.03px;top:195.84px" class="cls_014"><span class="cls_014">Tingkatkan level membership Anda</span></div>
+<div style="position:absolute;left:42.81px;top:204.14px" class="cls_104"><span class="cls_104">Upsize</span></div>
+<div style="position:absolute;left:185.26px;top:204.14px" class="cls_104"><span class="cls_104">Cepat dan Murah</span></div>
+<div style="position:absolute;left:458.36px;top:211.44px" class="cls_014"><span class="cls_014">dengan melakukan ini:</span></div>
+<div style="position:absolute;left:42.81px;top:218.43px" class="cls_048"><span class="cls_048">Hingga 10% bonus</span></div>
+<div style="position:absolute;left:185.26px;top:218.43px" class="cls_048"><span class="cls_048">Biaya penarikan awal</span></div>
+<div style="position:absolute;left:42.81px;top:231.93px" class="cls_048"><span class="cls_048">untuk pembayaran*</span></div>
+<div style="position:absolute;left:185.26px;top:231.93px" class="cls_048"><span class="cls_048">lebih murah hingga 20%</span></div>
+<div style="position:absolute;left:410.95px;top:260.71px" class="cls_019"><span class="cls_019">Dapatkan</span></div>
+<div style="position:absolute;left:547.57px;top:260.71px" class="cls_019"><span class="cls_019">Dapatkan poin</span></div>
+<div style="position:absolute;left:403.55px;top:277.21px" class="cls_019"><span class="cls_019">komisi</span><span class="cls_105"> lebih</span></div>
+<div style="position:absolute;left:557.28px;top:277.21px" class="cls_105"><span class="cls_105">membership</span></div>
+<div style="position:absolute;left:511.31px;top:269.61px" class="cls_106"><span class="cls_106">=</span></div>
+<div style="position:absolute;left:43.63px;top:294.64px" class="cls_104"><span class="cls_104">Penarikan Lebih</span></div>
+<div style="position:absolute;left:186.08px;top:296.22px" class="cls_107"><span class="cls_107">Lebih Banyak</span></div>
+<div style="position:absolute;left:406.27px;top:293.71px" class="cls_105"><span class="cls_105">banyak dari</span></div>
+<div style="position:absolute;left:556.88px;top:293.71px" class="cls_105"><span class="cls_105">Involve lebih</span></div>
+<div style="position:absolute;left:43.63px;top:308.89px" class="cls_104"><span class="cls_104">Awal</span></div>
+<div style="position:absolute;left:186.08px;top:308.22px" class="cls_107"><span class="cls_107">Keuntungan ke</span></div>
+<div style="position:absolute;left:396.16px;top:310.21px" class="cls_105"><span class="cls_105">partner Involve</span></div>
+<div style="position:absolute;left:573.21px;top:310.21px" class="cls_105"><span class="cls_105">banyak</span></div>
+<div style="position:absolute;left:186.08px;top:320.22px" class="cls_107"><span class="cls_107">depannya</span></div>
+<div style="position:absolute;left:43.63px;top:323.18px" class="cls_048"><span class="cls_048">Tarik komisi Anda</span></div>
+<div style="position:absolute;left:186.08px;top:332.26px" class="cls_108"><span class="cls_108">Kami selalu memberikan lebih</span></div>
+<div style="position:absolute;left:43.63px;top:336.68px" class="cls_048"><span class="cls_048">sebanyak yang Anda</span></div>
+<div style="position:absolute;left:186.08px;top:342.76px" class="cls_108"><span class="cls_108">banyak keuntungan ke</span></div>
+<div style="position:absolute;left:43.63px;top:350.18px" class="cls_048"><span class="cls_048">inginkan</span></div>
+<div style="position:absolute;left:186.08px;top:353.26px" class="cls_108"><span class="cls_108">depannya!</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:10790px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background27.jpg" width=720 height=405></div>
+<div style="position:absolute;left:118.67px;top:34.25px" class="cls_007"><span class="cls_007">Lebih Lagi Dengan Membership Programme</span></div>
+<div style="position:absolute;left:269.02px;top:92.62px" class="cls_035"><span class="cls_035">Involve Membership Levels</span></div>
+<div style="position:absolute;left:118.02px;top:130.32px" class="cls_066"><span class="cls_066">Tingkatkan membership Anda dan dapatkan berbagai keuntungan</span></div>
+<div style="position:absolute;left:111.65px;top:170.37px" class="cls_109"><span class="cls_109">Silver</span></div>
+<div style="position:absolute;left:270.05px;top:170.29px" class="cls_113"><span class="cls_113">Gold</span></div>
+<div style="position:absolute;left:411.72px;top:170.29px" class="cls_047"><span class="cls_047">Platinum</span></div>
+<div style="position:absolute;left:577.87px;top:170.29px" class="cls_059"><span class="cls_059">Black</span></div>
+<div style="position:absolute;left:252.94px;top:208.03px" class="cls_017"><span class="cls_017">5% bonus</span></div>
+<div style="position:absolute;left:408.22px;top:208.03px" class="cls_017"><span class="cls_017">8% bonus</span></div>
+<div style="position:absolute;left:559.60px;top:208.03px" class="cls_017"><span class="cls_017">10% bonus</span></div>
+<div style="position:absolute;left:125.04px;top:212.90px" class="cls_110"><span class="cls_110">X</span></div>
+<div style="position:absolute;left:248.47px;top:224.99px" class="cls_024"><span class="cls_024">untuk penarikan*</span></div>
+<div style="position:absolute;left:403.75px;top:224.99px" class="cls_024"><span class="cls_024">untuk penarikan*</span></div>
+<div style="position:absolute;left:559.02px;top:224.99px" class="cls_024"><span class="cls_024">untuk penarikan*</span></div>
+<div style="position:absolute;left:270.97px;top:257.01px" class="cls_111"><span class="cls_111">10%</span></div>
+<div style="position:absolute;left:426.25px;top:257.01px" class="cls_111"><span class="cls_111">15%</span></div>
+<div style="position:absolute;left:581.52px;top:257.01px" class="cls_111"><span class="cls_111">20%</span></div>
+<div style="position:absolute;left:125.04px;top:268.64px" class="cls_110"><span class="cls_110">X</span></div>
+<div style="position:absolute;left:267.66px;top:275.17px" class="cls_098"><span class="cls_098">Diskon</span></div>
+<div style="position:absolute;left:422.94px;top:275.17px" class="cls_098"><span class="cls_098">Diskon</span></div>
+<div style="position:absolute;left:578.21px;top:275.17px" class="cls_098"><span class="cls_098">Diskon</span></div>
+<div style="position:absolute;left:238.49px;top:288.41px" class="cls_024"><span class="cls_024">Early Withdrawal Fee</span></div>
+<div style="position:absolute;left:393.76px;top:288.41px" class="cls_024"><span class="cls_024">Early Withdrawal Fee</span></div>
+<div style="position:absolute;left:549.04px;top:288.41px" class="cls_024"><span class="cls_024">Early Withdrawal Fee</span></div>
+<div style="position:absolute;left:114.87px;top:315.65px" class="cls_112"><span class="cls_112">Hingga</span></div>
+<div style="position:absolute;left:270.15px;top:315.83px" class="cls_112"><span class="cls_112">Hingga</span></div>
+<div style="position:absolute;left:425.42px;top:315.82px" class="cls_112"><span class="cls_112">Hingga</span></div>
+<div style="position:absolute;left:567.85px;top:314.73px" class="cls_087"><span class="cls_087">Penarikan</span></div>
+<div style="position:absolute;left:79.35px;top:327.57px" class="cls_087"><span class="cls_087">2 penarikan</span><span class="cls_090"> </span><span class="cls_009">gratis</span></div>
+<div style="position:absolute;left:234.63px;top:327.75px" class="cls_087"><span class="cls_087">3 penarikan</span><span class="cls_090"> </span><span class="cls_009">gratis</span></div>
+<div style="position:absolute;left:389.91px;top:327.74px" class="cls_087"><span class="cls_087">5 penarikan</span><span class="cls_090"> </span><span class="cls_009">gratis</span></div>
+<div style="position:absolute;left:562.52px;top:329.13px" class="cls_009"><span class="cls_009">tanpa Batas</span></div>
+<div style="position:absolute;left:103.75px;top:342.05px" class="cls_112"><span class="cls_112">setiap bulan</span></div>
+<div style="position:absolute;left:259.03px;top:342.23px" class="cls_112"><span class="cls_112">setiap bulan</span></div>
+<div style="position:absolute;left:414.31px;top:342.22px" class="cls_112"><span class="cls_112">setiap bulan</span></div>
+<div style="position:absolute;left:560.13px;top:343.61px" class="cls_112"><span class="cls_112">setiap bulannya!</span></div>
+<div style="position:absolute;left:196.27px;top:376.18px" class="cls_114"><span class="cls_114">*Bonus atas pembayaran yang diperoleh hanya berlaku untuk konversi pada offer tertentu</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:11205px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background28.jpg" width=720 height=405></div>
+<div style="position:absolute;left:189.79px;top:144.86px" class="cls_115"><span class="cls_115">Buat Akun Involve Publisher</span></div>
+<div style="position:absolute;left:201.93px;top:202.89px" class="cls_035"><span class="cls_035">Mulailah Perjalanan Anda Bersama Involve Asia</span></div>
+<div style="position:absolute;left:279.02px;top:219.39px" class="cls_035"><span class="cls_035">hanya dengan 5 langkah</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:11620px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background29.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:59.02px" class="cls_116"><span class="cls_116">Bagaimana Car</span></div>
+<div style="position:absolute;left:35.56px;top:78.46px" class="cls_116"><span class="cls_116">Mendaftar Den</span></div>
+<div style="position:absolute;left:35.56px;top:97.90px" class="cls_116"><span class="cls_116">5 Langkah</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">1</span></div>
+<div style="position:absolute;left:46.30px;top:207.45px" class="cls_087"><span class="cls_087">STEP 1</span></div>
+<div style="position:absolute;left:46.30px;top:223.68px" class="cls_116"><span class="cls_116">Daftar sebagai</span></div>
+<div style="position:absolute;left:46.30px;top:245.28px" class="cls_116"><span class="cls_116">Involve</span></div>
+<div style="position:absolute;left:46.30px;top:266.88px" class="cls_116"><span class="cls_116">Publisher</span></div>
+<div style="position:absolute;left:46.30px;top:294.86px" class="cls_028"><span class="cls_028">Masuk ke halaman web</span></div>
+<div style="position:absolute;left:46.30px;top:311.42px" class="cls_136"><span class="cls_136"> </span><A HREF="https://invol.co/cl5as8h">Involve Publisher</A> <span class="cls_117"> </span><span class="cls_028">dan klik</span></div>
+<div style="position:absolute;left:46.30px;top:327.98px" class="cls_028"><span class="cls_028">“Join as Publisher”</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:12035px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background30.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:59.02px" class="cls_116"><span class="cls_116">Bagaimana Cara</span></div>
+<div style="position:absolute;left:35.56px;top:78.46px" class="cls_116"><span class="cls_116">Mendaftar Dengan</span></div>
+<div style="position:absolute;left:35.56px;top:97.90px" class="cls_116"><span class="cls_116">5 Langkah</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">2</span></div>
+<div style="position:absolute;left:46.30px;top:207.45px" class="cls_087"><span class="cls_087">STEP 2</span></div>
+<div style="position:absolute;left:46.30px;top:223.80px" class="cls_118"><span class="cls_118">Masukkan</span></div>
+<div style="position:absolute;left:46.30px;top:241.80px" class="cls_118"><span class="cls_118">Informasi Properti</span></div>
+<div style="position:absolute;left:46.30px;top:280.77px" class="cls_048"><span class="cls_048">Informasi properti secara</span></div>
+<div style="position:absolute;left:46.30px;top:295.95px" class="cls_048"><span class="cls_048">singkat seperti URL,</span></div>
+<div style="position:absolute;left:46.30px;top:311.13px" class="cls_048"><span class="cls_048">Channel dan Info tentang</span></div>
+<div style="position:absolute;left:46.30px;top:326.31px" class="cls_048"><span class="cls_048">Properti.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:12450px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background31.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:59.02px" class="cls_116"><span class="cls_116">Bagaimana Cara</span></div>
+<div style="position:absolute;left:35.56px;top:78.46px" class="cls_116"><span class="cls_116">Mendaftar Dengan</span></div>
+<div style="position:absolute;left:35.56px;top:97.90px" class="cls_116"><span class="cls_116">5 Langkah</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:46.30px;top:207.45px" class="cls_087"><span class="cls_087">STEP 3</span></div>
+<div style="position:absolute;left:46.30px;top:223.68px" class="cls_116"><span class="cls_116">Masukan</span></div>
+<div style="position:absolute;left:46.30px;top:245.28px" class="cls_116"><span class="cls_116">Kategori</span></div>
+<div style="position:absolute;left:46.30px;top:266.88px" class="cls_116"><span class="cls_116">Properti</span></div>
+<div style="position:absolute;left:46.30px;top:293.94px" class="cls_028"><span class="cls_028">Informasikan detail</span></div>
+<div style="position:absolute;left:46.30px;top:310.50px" class="cls_028"><span class="cls_028">properti Anda secara</span></div>
+<div style="position:absolute;left:46.30px;top:327.06px" class="cls_028"><span class="cls_028">lengkap agar Anda bisa</span></div>
+<div style="position:absolute;left:46.30px;top:343.62px" class="cls_028"><span class="cls_028">menemukan offer yang</span></div>
+<div style="position:absolute;left:46.30px;top:360.18px" class="cls_028"><span class="cls_028">sesuai.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:12865px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background32.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:59.02px" class="cls_116"><span class="cls_116">Bagaimana Cara</span></div>
+<div style="position:absolute;left:35.56px;top:78.46px" class="cls_116"><span class="cls_116">Mendaftar Dengan</span></div>
+<div style="position:absolute;left:35.56px;top:97.90px" class="cls_116"><span class="cls_116">5 Langkah</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">4</span></div>
+<div style="position:absolute;left:46.30px;top:199.55px" class="cls_087"><span class="cls_087">STEP 4</span></div>
+<div style="position:absolute;left:46.30px;top:215.90px" class="cls_118"><span class="cls_118">Optional:</span></div>
+<div style="position:absolute;left:46.30px;top:233.90px" class="cls_118"><span class="cls_118">‘Premium Inventory’</span></div>
+<div style="position:absolute;left:46.30px;top:257.91px" class="cls_024"><span class="cls_024">Premium inventory akan</span></div>
+<div style="position:absolute;left:46.30px;top:271.71px" class="cls_024"><span class="cls_024">memberikan Publisher</span></div>
+<div style="position:absolute;left:46.30px;top:285.51px" class="cls_024"><span class="cls_024">kesempatan untuk membagikan</span></div>
+<div style="position:absolute;left:46.30px;top:299.31px" class="cls_024"><span class="cls_024">rate card ke Advertiser. Rate</span></div>
+<div style="position:absolute;left:46.30px;top:313.11px" class="cls_024"><span class="cls_024">card adalah sebuah harga untuk</span></div>
+<div style="position:absolute;left:46.30px;top:326.91px" class="cls_024"><span class="cls_024">setiap iklan di properti Anda.</span></div>
+<div style="position:absolute;left:46.30px;top:340.71px" class="cls_024"><span class="cls_024">Dengan memberikan rate card,</span></div>
+<div style="position:absolute;left:46.30px;top:354.51px" class="cls_112"><span class="cls_112">Anda berkesempatan untuk</span></div>
+<div style="position:absolute;left:46.30px;top:368.31px" class="cls_112"><span class="cls_112">bekerjasama dengan lebih</span></div>
+<div style="position:absolute;left:46.30px;top:382.11px" class="cls_112"><span class="cls_112">banyak advertiser.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:13280px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background33.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:59.02px" class="cls_116"><span class="cls_116">Bagaimana Cara</span></div>
+<div style="position:absolute;left:35.56px;top:78.46px" class="cls_116"><span class="cls_116">Mendaftar Dengan</span></div>
+<div style="position:absolute;left:35.56px;top:97.90px" class="cls_116"><span class="cls_116">5 Langkah</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">5</span></div>
+<div style="position:absolute;left:46.30px;top:207.45px" class="cls_087"><span class="cls_087">STEP 5</span></div>
+<div style="position:absolute;left:46.30px;top:223.68px" class="cls_116"><span class="cls_116">Masukkan Data</span></div>
+<div style="position:absolute;left:46.30px;top:245.28px" class="cls_116"><span class="cls_116">Pribadi</span></div>
+<div style="position:absolute;left:46.46px;top:268.26px" class="cls_028"><span class="cls_028">Masukkan data pribadi</span></div>
+<div style="position:absolute;left:46.46px;top:284.82px" class="cls_028"><span class="cls_028">seperti username maupun</span></div>
+<div style="position:absolute;left:46.46px;top:301.38px" class="cls_028"><span class="cls_028">kata sandi.</span></div>
+<div style="position:absolute;left:46.46px;top:317.94px" class="cls_028"><span class="cls_028">Setelah itu Anda akan</span></div>
+<div style="position:absolute;left:46.46px;top:334.50px" class="cls_028"><span class="cls_028">mendapatkan email untuk</span></div>
+<div style="position:absolute;left:46.46px;top:351.06px" class="cls_028"><span class="cls_028">verifikasi akun Involve</span></div>
+<div style="position:absolute;left:46.46px;top:367.62px" class="cls_028"><span class="cls_028">Anda.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:13695px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background34.jpg" width=720 height=405></div>
+<div style="position:absolute;left:341.60px;top:52.52px" class="cls_119"><span class="cls_119">3 Cara menggunakan</span></div>
+<div style="position:absolute;left:341.60px;top:79.52px" class="cls_068"><span class="cls_068">Involve Dashboard</span></div>
+<div style="position:absolute;left:418.89px;top:148.22px" class="cls_047"><span class="cls_047">Promosikan</span><span class="cls_032"> offer dan</span></div>
+<div style="position:absolute;left:389.72px;top:156.18px" class="cls_059"><span class="cls_059">1</span></div>
+<div style="position:absolute;left:418.89px;top:167.54px" class="cls_032"><span class="cls_032">Campaign di feed</span></div>
+<div style="position:absolute;left:418.89px;top:227.09px" class="cls_047"><span class="cls_047">Hasilkan </span><span class="cls_032">tautan menggunakan</span></div>
+<div style="position:absolute;left:391.01px;top:234.78px" class="cls_059"><span class="cls_059">2</span></div>
+<div style="position:absolute;left:418.89px;top:246.41px" class="cls_032"><span class="cls_032">Deeplink Generator</span></div>
+<div style="position:absolute;left:418.89px;top:305.97px" class="cls_047"><span class="cls_047">Promosikan </span><span class="cls_032">Ready-Made</span></div>
+<div style="position:absolute;left:392.54px;top:314.15px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:418.89px;top:325.29px" class="cls_032"><span class="cls_032">Banners & Coupons</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:14110px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background35.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:571.72px;top:125.82px" class="cls_017"><span class="cls_017">1</span></div>
+<div style="position:absolute;left:585.33px;top:145.33px" class="cls_009"><span class="cls_009">Cari dan pilih</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">1</span></div>
+<div style="position:absolute;left:585.33px;top:159.73px" class="cls_009"><span class="cls_009">campaign</span></div>
+<div style="position:absolute;left:585.33px;top:174.13px" class="cls_009"><span class="cls_009">exclusive</span></div>
+<div style="position:absolute;left:46.30px;top:205.76px" class="cls_006"><span class="cls_006">Promosikan Offer</span></div>
+<div style="position:absolute;left:401.19px;top:223.99px" class="cls_017"><span class="cls_017">2</span></div>
+<div style="position:absolute;left:46.30px;top:224.96px" class="cls_006"><span class="cls_006">& Campaign di</span></div>
+<div style="position:absolute;left:412.03px;top:240.47px" class="cls_009"><span class="cls_009">Pilih Wilayah </span><span class="cls_120">(Eg:</span></div>
+<div style="position:absolute;left:46.30px;top:244.16px" class="cls_006"><span class="cls_006">feed Anda</span></div>
+<div style="position:absolute;left:412.03px;top:254.87px" class="cls_120"><span class="cls_120">Indonesia atau</span></div>
+<div style="position:absolute;left:46.30px;top:273.32px" class="cls_024"><span class="cls_024">a. Temukan campaign</span></div>
+<div style="position:absolute;left:412.03px;top:269.27px" class="cls_120"><span class="cls_120">Indonesia)</span></div>
+<div style="position:absolute;left:604.78px;top:280.62px" class="cls_017"><span class="cls_017">3</span></div>
+<div style="position:absolute;left:46.30px;top:287.12px" class="cls_024"><span class="cls_024">eksklusif di feed Anda yang</span></div>
+<div style="position:absolute;left:46.30px;top:300.92px" class="cls_024"><span class="cls_024">akan diperbaharui setiap hari.</span></div>
+<div style="position:absolute;left:615.33px;top:299.31px" class="cls_009"><span class="cls_009">Pilih kategori</span></div>
+<div style="position:absolute;left:46.30px;top:314.72px" class="cls_024"><span class="cls_024">Pilih di feed campaign sampai</span></div>
+<div style="position:absolute;left:615.33px;top:313.71px" class="cls_120"><span class="cls_120">(Eg: Electronics,</span></div>
+<div style="position:absolute;left:46.30px;top:328.52px" class="cls_024"><span class="cls_024">Anda menemukan sebuah</span></div>
+<div style="position:absolute;left:615.33px;top:328.11px" class="cls_120"><span class="cls_120">Kecantikan  &</span></div>
+<div style="position:absolute;left:46.30px;top:342.32px" class="cls_024"><span class="cls_024">offer yang menarik perhatian</span></div>
+<div style="position:absolute;left:615.33px;top:342.51px" class="cls_120"><span class="cls_120">Kesehatan)</span></div>
+<div style="position:absolute;left:46.30px;top:356.12px" class="cls_024"><span class="cls_024">Anda.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:14525px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background36.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:555.51px;top:81.44px" class="cls_017"><span class="cls_017">1</span><span class="cls_075">    Nama Campaign</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:489.39px;top:118.25px" class="cls_017"><span class="cls_017">2</span><span class="cls_075">   Periode Campaign</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">1</span></div>
+<div style="position:absolute;left:486.16px;top:158.65px" class="cls_075"><span class="cls_075">Pilih properti untuk</span></div>
+<div style="position:absolute;left:465.93px;top:160.04px" class="cls_017"><span class="cls_017">3</span></div>
+<div style="position:absolute;left:486.16px;top:168.25px" class="cls_075"><span class="cls_075">menghasilkan link</span></div>
+<div style="position:absolute;left:632.58px;top:194.23px" class="cls_017"><span class="cls_017">5</span></div>
+<div style="position:absolute;left:469.00px;top:203.38px" class="cls_017"><span class="cls_017">4</span></div>
+<div style="position:absolute;left:489.08px;top:207.25px" class="cls_075"><span class="cls_075">Tautan Afiliasi Involve</span></div>
+<div style="position:absolute;left:46.30px;top:205.76px" class="cls_006"><span class="cls_006">Promosikan Offer</span></div>
+<div style="position:absolute;left:641.71px;top:214.17px" class="cls_075"><span class="cls_075">Gunakan tombol</span></div>
+<div style="position:absolute;left:641.71px;top:223.77px" class="cls_075"><span class="cls_075">ini untuk</span></div>
+<div style="position:absolute;left:46.30px;top:224.96px" class="cls_006"><span class="cls_006">& Campaign di</span></div>
+<div style="position:absolute;left:641.71px;top:233.37px" class="cls_075"><span class="cls_075">bagikan tautan</span></div>
+<div style="position:absolute;left:641.71px;top:242.97px" class="cls_075"><span class="cls_075">ke media sosial</span></div>
+<div style="position:absolute;left:46.30px;top:244.16px" class="cls_006"><span class="cls_006">feed Anda</span></div>
+<div style="position:absolute;left:46.30px;top:273.28px" class="cls_048"><span class="cls_048">b. Saat Anda mengklik</span></div>
+<div style="position:absolute;left:46.30px;top:288.46px" class="cls_048"><span class="cls_048">tombol  “Promote”, pop-up</span></div>
+<div style="position:absolute;left:46.30px;top:303.64px" class="cls_048"><span class="cls_048">ini akan muncul. Pop-up ini</span></div>
+<div style="position:absolute;left:46.30px;top:318.82px" class="cls_048"><span class="cls_048">berisi semua informasi</span></div>
+<div style="position:absolute;left:46.30px;top:334.00px" class="cls_048"><span class="cls_048">relevan untuk membuat</span></div>
+<div style="position:absolute;left:46.30px;top:349.18px" class="cls_048"><span class="cls_048">konten</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:14940px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background37.jpg" width=720 height=405></div>
+<div style="position:absolute;left:426.78px;top:16.07px" class="cls_087"><span class="cls_087">Facebook</span></div>
+<div style="position:absolute;left:426.78px;top:30.55px" class="cls_091"><span class="cls_091">Masukkan tautan Afiliasi ke dalam postingan Anda</span></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:272.20px;top:119.80px" class="cls_087"><span class="cls_087">Twitter</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:272.20px;top:134.28px" class="cls_091"><span class="cls_091">Masukkan tautan Afiliasi ke dalam</span></div>
+<div style="position:absolute;left:272.20px;top:146.28px" class="cls_091"><span class="cls_091">postingan Anda</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">1</span></div>
+<div style="position:absolute;left:46.30px;top:205.76px" class="cls_006"><span class="cls_006">Promosikan Offer</span></div>
+<div style="position:absolute;left:46.30px;top:224.96px" class="cls_006"><span class="cls_006">& Campaign di</span></div>
+<div style="position:absolute;left:46.30px;top:244.16px" class="cls_006"><span class="cls_006">feed Anda</span></div>
+<div style="position:absolute;left:46.30px;top:273.16px" class="cls_009"><span class="cls_009">Contoh dimana kamu</span></div>
+<div style="position:absolute;left:46.30px;top:286.12px" class="cls_009"><span class="cls_009">bisa membagikan Tautan</span></div>
+<div style="position:absolute;left:46.30px;top:299.08px" class="cls_009"><span class="cls_009">Involve</span></div>
+<div style="position:absolute;left:46.30px;top:317.39px" class="cls_048"><span class="cls_048">c. Bagikan tautan Involve di</span></div>
+<div style="position:absolute;left:46.30px;top:332.57px" class="cls_048"><span class="cls_048">konten</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:15355px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background38.jpg" width=720 height=405></div>
+<div style="position:absolute;left:216.48px;top:73.83px" class="cls_017"><span class="cls_017">1</span></div>
+<div style="position:absolute;left:520.29px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:245.81px;top:94.95px" class="cls_009"><span class="cls_009">Salin product URL</span></div>
+<div style="position:absolute;left:520.29px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:520.29px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:527.71px;top:148.00px" class="cls_059"><span class="cls_059">2</span></div>
+<div style="position:absolute;left:531.03px;top:199.88px" class="cls_013"><span class="cls_013">Hasilkan tautan</span></div>
+<div style="position:absolute;left:531.03px;top:215.48px" class="cls_013"><span class="cls_013">dengan menggunakan</span></div>
+<div style="position:absolute;left:531.03px;top:231.08px" class="cls_013"><span class="cls_013">Deeplink Generator</span></div>
+<div style="position:absolute;left:531.19px;top:260.12px" class="cls_048"><span class="cls_048">a. Tidak menemukan sebuah</span></div>
+<div style="position:absolute;left:531.19px;top:275.30px" class="cls_048"><span class="cls_048">campaign yang menarik?</span></div>
+<div style="position:absolute;left:531.19px;top:290.48px" class="cls_048"><span class="cls_048">Atau ingin mempromosikan</span></div>
+<div style="position:absolute;left:531.19px;top:305.66px" class="cls_048"><span class="cls_048">sebuah produk spesifik untuk</span></div>
+<div style="position:absolute;left:531.19px;top:320.84px" class="cls_048"><span class="cls_048">konten kamu? Gunakan</span></div>
+<div style="position:absolute;left:531.19px;top:336.02px" class="cls_048"><span class="cls_048">Deeplink Generator. </span><span class="cls_121">Pertama</span></div>
+<div style="position:absolute;left:531.19px;top:351.20px" class="cls_121"><span class="cls_121">salin tautan produk.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:15770px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background39.jpg" width=720 height=405></div>
+<div style="position:absolute;left:520.29px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:520.29px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:520.29px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:527.71px;top:148.00px" class="cls_059"><span class="cls_059">2</span></div>
+<div style="position:absolute;left:531.03px;top:199.88px" class="cls_013"><span class="cls_013">Hasilkan tautan</span></div>
+<div style="position:absolute;left:93.80px;top:208.24px" class="cls_017"><span class="cls_017">2</span></div>
+<div style="position:absolute;left:531.03px;top:215.48px" class="cls_013"><span class="cls_013">dengan menggunakan</span></div>
+<div style="position:absolute;left:107.41px;top:229.47px" class="cls_072"><span class="cls_072">Klik Deeplink Generator atau “Hasilkan Tautan</span></div>
+<div style="position:absolute;left:531.03px;top:231.08px" class="cls_013"><span class="cls_013">Deeplink Generator</span></div>
+<div style="position:absolute;left:107.41px;top:240.27px" class="cls_072"><span class="cls_072">Afiliasi” untuk menghasilkan tautan</span></div>
+<div style="position:absolute;left:531.03px;top:265.36px" class="cls_048"><span class="cls_048">b. Di Dashboard Involve</span></div>
+<div style="position:absolute;left:531.03px;top:280.54px" class="cls_048"><span class="cls_048">Anda, kanan atas menu, klik</span></div>
+<div style="position:absolute;left:531.03px;top:295.72px" class="cls_048"><span class="cls_048">“Promotion” dan klik</span></div>
+<div style="position:absolute;left:531.03px;top:310.90px" class="cls_121"><span class="cls_121">“Deeplink Generator”</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:16185px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background40.jpg" width=720 height=405></div>
+<div style="position:absolute;left:520.29px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:216.46px;top:80.56px" class="cls_017"><span class="cls_017">5</span></div>
+<div style="position:absolute;left:230.07px;top:101.68px" class="cls_009"><span class="cls_009">Tautan Involve Anda</span></div>
+<div style="position:absolute;left:520.29px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:230.07px;top:116.08px" class="cls_009"><span class="cls_009">dapat ditemukan disini.</span></div>
+<div style="position:absolute;left:520.29px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:527.71px;top:148.00px" class="cls_059"><span class="cls_059">2</span></div>
+<div style="position:absolute;left:180.45px;top:188.35px" class="cls_017"><span class="cls_017">3</span></div>
+<div style="position:absolute;left:531.03px;top:199.80px" class="cls_111"><span class="cls_111">Generate Links</span></div>
+<div style="position:absolute;left:194.06px;top:209.47px" class="cls_009"><span class="cls_009">Tempelkan product URL disini</span></div>
+<div style="position:absolute;left:531.03px;top:217.80px" class="cls_111"><span class="cls_111">using Involve</span></div>
+<div style="position:absolute;left:531.03px;top:235.80px" class="cls_111"><span class="cls_111">Deeplink Generator</span></div>
+<div style="position:absolute;left:531.03px;top:265.36px" class="cls_048"><span class="cls_048">c. Kamu akan membuka</span></div>
+<div style="position:absolute;left:531.03px;top:280.54px" class="cls_048"><span class="cls_048">halaman Involve Deeplink</span></div>
+<div style="position:absolute;left:248.22px;top:292.17px" class="cls_017"><span class="cls_017">4</span></div>
+<div style="position:absolute;left:531.03px;top:295.72px" class="cls_048"><span class="cls_048">Generator. Kamu bisa</span></div>
+<div style="position:absolute;left:531.03px;top:310.90px" class="cls_048"><span class="cls_048">menghasilkan tautan dan</span></div>
+<div style="position:absolute;left:261.83px;top:313.29px" class="cls_009"><span class="cls_009">Klik hasilkan untuk</span></div>
+<div style="position:absolute;left:261.83px;top:327.69px" class="cls_009"><span class="cls_009">mendapatkan Tautan Involve</span></div>
+<div style="position:absolute;left:531.03px;top:326.08px" class="cls_048"><span class="cls_048">membagikannya ke dalam</span></div>
+<div style="position:absolute;left:531.03px;top:341.26px" class="cls_048"><span class="cls_048">konten.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:16600px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background41.jpg" width=720 height=405></div>
+<div style="position:absolute;left:42.18px;top:43.09px" class="cls_122"><span class="cls_122">TikTok</span></div>
+<div style="position:absolute;left:274.61px;top:48.94px" class="cls_122"><span class="cls_122">YouTube</span></div>
+<div style="position:absolute;left:507.05px;top:48.94px" class="cls_122"><span class="cls_122">Telegram</span></div>
+<div style="position:absolute;left:42.18px;top:55.01px" class="cls_088"><span class="cls_088">Gunakan third party</span></div>
+<div style="position:absolute;left:274.61px;top:60.86px" class="cls_088"><span class="cls_088">Masukkan tautan ke</span></div>
+<div style="position:absolute;left:507.05px;top:60.86px" class="cls_088"><span class="cls_088">Masukkan link ke dalam</span></div>
+<div style="position:absolute;left:42.18px;top:69.41px" class="cls_088"><span class="cls_088">launchpad untuk tautan</span></div>
+<div style="position:absolute;left:274.61px;top:75.26px" class="cls_088"><span class="cls_088">dalam description box</span></div>
+<div style="position:absolute;left:507.05px;top:75.26px" class="cls_088"><span class="cls_088">postingan telegram</span></div>
+<div style="position:absolute;left:42.18px;top:83.81px" class="cls_123"><span class="cls_123">Eg: Milkshake, Linktree</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:17015px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background42.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:46.30px;top:205.72px" class="cls_069"><span class="cls_069">Promosikan</span></div>
+<div style="position:absolute;left:303.24px;top:207.55px" class="cls_017"><span class="cls_017">1</span></div>
+<div style="position:absolute;left:316.85px;top:227.06px" class="cls_090"><span class="cls_090">Klik </span><span class="cls_009">Banners & Coupons</span></div>
+<div style="position:absolute;left:46.30px;top:226.12px" class="cls_069"><span class="cls_069">Ready-Made</span></div>
+<div style="position:absolute;left:316.85px;top:241.46px" class="cls_090"><span class="cls_090">dari dropdown menu</span></div>
+<div style="position:absolute;left:46.30px;top:246.52px" class="cls_069"><span class="cls_069">Banners &</span></div>
+<div style="position:absolute;left:46.30px;top:266.92px" class="cls_069"><span class="cls_069">Coupons</span></div>
+<div style="position:absolute;left:46.30px;top:297.31px" class="cls_048"><span class="cls_048">a. Butuh </span><span class="cls_121">Banner & Coupon</span></div>
+<div style="position:absolute;left:46.30px;top:312.49px" class="cls_048"><span class="cls_048">agar lebih mudah</span></div>
+<div style="position:absolute;left:46.30px;top:327.67px" class="cls_048"><span class="cls_048">mempromosikan ke audiens</span></div>
+<div style="position:absolute;left:46.30px;top:342.85px" class="cls_048"><span class="cls_048">Anda?</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:17430px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background43.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:541.75px;top:122.48px" class="cls_017"><span class="cls_017">2</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:555.37px;top:141.99px" class="cls_090"><span class="cls_090">Klik </span><span class="cls_009">“Lihat Tutorial”</span><span class="cls_090"> Untuk</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:555.37px;top:156.39px" class="cls_090"><span class="cls_090">membantu Anda dalam</span></div>
+<div style="position:absolute;left:555.37px;top:170.79px" class="cls_090"><span class="cls_090">navigasi halaman ini</span></div>
+<div style="position:absolute;left:46.30px;top:205.72px" class="cls_069"><span class="cls_069">Promosikan</span></div>
+<div style="position:absolute;left:46.30px;top:226.12px" class="cls_069"><span class="cls_069">Ready-Made</span></div>
+<div style="position:absolute;left:46.30px;top:246.52px" class="cls_069"><span class="cls_069">Banners &</span></div>
+<div style="position:absolute;left:46.30px;top:266.92px" class="cls_069"><span class="cls_069">Coupons</span></div>
+<div style="position:absolute;left:46.30px;top:297.31px" class="cls_048"><span class="cls_048">b. Di Halaman ini, kami</span></div>
+<div style="position:absolute;left:46.30px;top:312.49px" class="cls_048"><span class="cls_048">mempunyai tutorial yang</span></div>
+<div style="position:absolute;left:46.30px;top:327.67px" class="cls_048"><span class="cls_048">akan membantu anda</span></div>
+<div style="position:absolute;left:46.30px;top:342.85px" class="cls_048"><span class="cls_048">untuk navigasikan halaman</span></div>
+<div style="position:absolute;left:46.30px;top:358.03px" class="cls_048"><span class="cls_048">ini</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:17845px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background44.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:46.30px;top:205.72px" class="cls_069"><span class="cls_069">Promosikan</span></div>
+<div style="position:absolute;left:46.30px;top:226.12px" class="cls_069"><span class="cls_069">Ready-Made</span></div>
+<div style="position:absolute;left:262.69px;top:243.98px" class="cls_017"><span class="cls_017">3</span></div>
+<div style="position:absolute;left:46.30px;top:246.52px" class="cls_069"><span class="cls_069">Banners &</span></div>
+<div style="position:absolute;left:276.30px;top:263.49px" class="cls_090"><span class="cls_090">Gunakan filter untuk</span></div>
+<div style="position:absolute;left:46.30px;top:266.92px" class="cls_069"><span class="cls_069">Coupons</span></div>
+<div style="position:absolute;left:276.30px;top:277.89px" class="cls_090"><span class="cls_090">temukan campaign pilihan</span></div>
+<div style="position:absolute;left:276.30px;top:292.29px" class="cls_090"><span class="cls_090">anda</span></div>
+<div style="position:absolute;left:46.30px;top:297.31px" class="cls_048"><span class="cls_048">c. Temukan campaign yang</span></div>
+<div style="position:absolute;left:46.30px;top:312.49px" class="cls_048"><span class="cls_048">cocok dan menarik untuk</span></div>
+<div style="position:absolute;left:46.30px;top:327.67px" class="cls_048"><span class="cls_048">Anda.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:18260px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background45.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:411.81px;top:168.91px" class="cls_017"><span class="cls_017">4</span></div>
+<div style="position:absolute;left:425.43px;top:188.42px" class="cls_090"><span class="cls_090">Klik pada campaign yang Anda</span></div>
+<div style="position:absolute;left:425.43px;top:202.82px" class="cls_090"><span class="cls_090">tertarik untuk lebih lanjut</span></div>
+<div style="position:absolute;left:46.30px;top:205.72px" class="cls_069"><span class="cls_069">Promosikan</span></div>
+<div style="position:absolute;left:46.30px;top:226.12px" class="cls_069"><span class="cls_069">Ready-Made</span></div>
+<div style="position:absolute;left:46.30px;top:246.52px" class="cls_069"><span class="cls_069">Banners &</span></div>
+<div style="position:absolute;left:46.30px;top:266.92px" class="cls_069"><span class="cls_069">Coupons</span></div>
+<div style="position:absolute;left:46.30px;top:297.31px" class="cls_048"><span class="cls_048">d. Banyak pilihan banner</span></div>
+<div style="position:absolute;left:46.30px;top:312.49px" class="cls_048"><span class="cls_048">yang tersedia untuk Anda</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:18675px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background46.jpg" width=720 height=405></div>
+<div style="position:absolute;left:35.56px;top:68.89px" class="cls_007"><span class="cls_007">Cara</span></div>
+<div style="position:absolute;left:555.51px;top:81.44px" class="cls_017"><span class="cls_017">1</span><span class="cls_075">    Nama Campaign</span></div>
+<div style="position:absolute;left:35.56px;top:93.73px" class="cls_007"><span class="cls_007">Menggunakan</span></div>
+<div style="position:absolute;left:489.39px;top:118.25px" class="cls_017"><span class="cls_017">2</span><span class="cls_075">   Periode Campaign</span></div>
+<div style="position:absolute;left:35.56px;top:118.57px" class="cls_007"><span class="cls_007">Platform</span></div>
+<div style="position:absolute;left:42.98px;top:148.00px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:486.16px;top:158.65px" class="cls_075"><span class="cls_075">Pilih properti untuk</span></div>
+<div style="position:absolute;left:465.93px;top:160.04px" class="cls_017"><span class="cls_017">3</span></div>
+<div style="position:absolute;left:486.16px;top:168.25px" class="cls_075"><span class="cls_075">menghasilkan link</span></div>
+<div style="position:absolute;left:292.78px;top:193.77px" class="cls_017"><span class="cls_017">5</span></div>
+<div style="position:absolute;left:632.58px;top:194.23px" class="cls_017"><span class="cls_017">6</span></div>
+<div style="position:absolute;left:469.00px;top:203.38px" class="cls_017"><span class="cls_017">4</span></div>
+<div style="position:absolute;left:489.08px;top:207.25px" class="cls_075"><span class="cls_075">Tautan Afiliasi Involve</span></div>
+<div style="position:absolute;left:46.30px;top:205.72px" class="cls_069"><span class="cls_069">Promosikan</span></div>
+<div style="position:absolute;left:301.91px;top:213.71px" class="cls_075"><span class="cls_075">Kode Eksklusif</span></div>
+<div style="position:absolute;left:641.71px;top:214.17px" class="cls_075"><span class="cls_075">Gunakan tombol</span></div>
+<div style="position:absolute;left:301.91px;top:223.31px" class="cls_075"><span class="cls_075">tersedia.</span></div>
+<div style="position:absolute;left:641.71px;top:223.77px" class="cls_075"><span class="cls_075">ini untuk</span></div>
+<div style="position:absolute;left:301.91px;top:232.91px" class="cls_075"><span class="cls_075">Terutama</span></div>
+<div style="position:absolute;left:641.71px;top:233.37px" class="cls_075"><span class="cls_075">bagikan tautan</span></div>
+<div style="position:absolute;left:46.30px;top:226.12px" class="cls_069"><span class="cls_069">Ready-Made</span></div>
+<div style="position:absolute;left:301.91px;top:242.51px" class="cls_075"><span class="cls_075">selama Sale</span></div>
+<div style="position:absolute;left:641.71px;top:242.97px" class="cls_075"><span class="cls_075">ke media sosial</span></div>
+<div style="position:absolute;left:301.91px;top:252.11px" class="cls_075"><span class="cls_075">besar seperti:</span></div>
+<div style="position:absolute;left:46.30px;top:246.52px" class="cls_069"><span class="cls_069">Banners &</span></div>
+<div style="position:absolute;left:301.91px;top:261.71px" class="cls_075"><span class="cls_075">11.11</span></div>
+<div style="position:absolute;left:46.30px;top:266.92px" class="cls_069"><span class="cls_069">Coupons</span></div>
+<div style="position:absolute;left:46.30px;top:297.31px" class="cls_048"><span class="cls_048">e. Pop-up untuk beberapa</span></div>
+<div style="position:absolute;left:46.30px;top:312.49px" class="cls_048"><span class="cls_048">campaign tertentu akan</span></div>
+<div style="position:absolute;left:46.30px;top:327.67px" class="cls_048"><span class="cls_048">muncul di keterangan</span></div>
+<div style="position:absolute;left:46.30px;top:342.85px" class="cls_048"><span class="cls_048">Campaign.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:19090px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background47.jpg" width=720 height=405></div>
+<div style="position:absolute;left:205.14px;top:49.42px" class="cls_053"><span class="cls_053">Laporan Performa dan kinerja keseluruhan Anda pada Offer yang Anda</span></div>
+<div style="position:absolute;left:45.33px;top:45.98px" class="cls_004"><span class="cls_004">Laporan</span></div>
+<div style="position:absolute;left:205.14px;top:70.12px" class="cls_053"><span class="cls_053">promosikan</span></div>
+<div style="position:absolute;left:45.33px;top:70.82px" class="cls_004"><span class="cls_004">Performa</span></div>
+<div style="position:absolute;left:205.14px;top:90.98px" class="cls_124"><span class="cls_124">(mis. Jumlah klik, konversi, dan jumlah penjualan yang Anda dapatkan dari Offer yang Anda</span></div>
+<div style="position:absolute;left:205.14px;top:106.16px" class="cls_124"><span class="cls_124">promosikan)</span></div>
+<div style="position:absolute;left:477.15px;top:191.68px" class="cls_090"><span class="cls_090">Kamu bisa menggunakan </span><span class="cls_009">filter</span><span class="cls_090"> untuk</span></div>
+<div style="position:absolute;left:477.15px;top:206.08px" class="cls_090"><span class="cls_090">memonitor performa kamu dalam</span></div>
+<div style="position:absolute;left:477.15px;top:220.48px" class="cls_090"><span class="cls_090">periode tertentu.</span></div>
+<div style="position:absolute;left:532.35px;top:298.94px" class="cls_090"><span class="cls_090">Kamu bisa </span><span class="cls_009">menarik </span><span class="cls_090"> data</span></div>
+<div style="position:absolute;left:532.35px;top:313.34px" class="cls_090"><span class="cls_090">dan melampirkannya ke</span></div>
+<div style="position:absolute;left:532.35px;top:327.74px" class="cls_090"><span class="cls_090">dalam rate card Anda..</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:19505px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background48.jpg" width=720 height=405></div>
+<div style="position:absolute;left:205.14px;top:49.42px" class="cls_053"><span class="cls_053">Laporan konversi yang Anda buat dari Offer yang Anda promosikan</span></div>
+<div style="position:absolute;left:45.33px;top:45.98px" class="cls_004"><span class="cls_004">Laporan</span></div>
+<div style="position:absolute;left:205.14px;top:70.28px" class="cls_124"><span class="cls_124">(mis. Waktu terjadinya konversi, jumlah penjualan tertentu, dan penghasilan dari satu konversi</span></div>
+<div style="position:absolute;left:45.33px;top:70.82px" class="cls_004"><span class="cls_004">Konversi</span></div>
+<div style="position:absolute;left:205.14px;top:85.46px" class="cls_124"><span class="cls_124">tertentu).</span></div>
+<div style="position:absolute;left:477.15px;top:197.97px" class="cls_090"><span class="cls_090">Kamu bisa menggunakan </span><span class="cls_009">filter</span><span class="cls_090"> untuk</span></div>
+<div style="position:absolute;left:477.15px;top:212.37px" class="cls_090"><span class="cls_090">memonitor performa kamu dalam</span></div>
+<div style="position:absolute;left:477.15px;top:226.77px" class="cls_090"><span class="cls_090">periode tertentu.</span></div>
+<div style="position:absolute;left:532.35px;top:329.61px" class="cls_090"><span class="cls_090">Kamu bisa </span><span class="cls_009">menarik </span><span class="cls_090">data</span></div>
+<div style="position:absolute;left:532.35px;top:344.01px" class="cls_090"><span class="cls_090">dan melampirkannya ke</span></div>
+<div style="position:absolute;left:532.35px;top:358.41px" class="cls_090"><span class="cls_090">dalam rate card Anda.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:19920px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background49.jpg" width=720 height=405></div>
+<div style="position:absolute;left:60.36px;top:54.51px" class="cls_119"><span class="cls_119">Dapatkan Penghasilan Dari</span></div>
+<div style="position:absolute;left:60.36px;top:81.51px" class="cls_125"><span class="cls_125">Involve Referral Programme</span></div>
+<div style="position:absolute;left:137.65px;top:150.21px" class="cls_047"><span class="cls_047">Promosikan </span><span class="cls_032">Involve Asia</span></div>
+<div style="position:absolute;left:108.48px;top:158.17px" class="cls_059"><span class="cls_059">1</span></div>
+<div style="position:absolute;left:137.65px;top:169.53px" class="cls_032"><span class="cls_032">platform di konten Anda*</span></div>
+<div style="position:absolute;left:137.65px;top:229.08px" class="cls_032"><span class="cls_032">Dorong audiens Anda untuk</span></div>
+<div style="position:absolute;left:109.77px;top:236.77px" class="cls_059"><span class="cls_059">2</span></div>
+<div style="position:absolute;left:137.65px;top:248.40px" class="cls_047"><span class="cls_047">bergabung</span><span class="cls_032"> bersama Involve Asia</span></div>
+<div style="position:absolute;left:137.65px;top:300.79px" class="cls_047"><span class="cls_047">Dapatkan Komisi RM5</span><span class="cls_032"> untuk</span></div>
+<div style="position:absolute;left:111.30px;top:316.14px" class="cls_059"><span class="cls_059">3</span></div>
+<div style="position:absolute;left:137.65px;top:320.11px" class="cls_032"><span class="cls_032">setiap pendaftaran akun dari link</span></div>
+<div style="position:absolute;left:137.65px;top:339.43px" class="cls_032"><span class="cls_032">referral Anda.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:20335px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background50.jpg" width=720 height=405></div>
+<div style="position:absolute;left:189.09px;top:32.50px" class="cls_126"><span class="cls_126">Publisher sukses kami</span></div>
+<div style="position:absolute;left:88.27px;top:113.20px" class="cls_127"><span class="cls_127">Pilihan Sempurna</span></div>
+<div style="position:absolute;left:326.16px;top:111.47px" class="cls_127"><span class="cls_127">Dukungan</span></div>
+<div style="position:absolute;left:555.56px;top:113.20px" class="cls_127"><span class="cls_127">Alat Kuat</span></div>
+<div style="position:absolute;left:88.26px;top:135.61px" class="cls_128"><span class="cls_128">Vocket</span></div>
+<div style="position:absolute;left:326.16px;top:130.91px" class="cls_127"><span class="cls_127">Profesional</span></div>
+<div style="position:absolute;left:555.56px;top:135.60px" class="cls_128"><span class="cls_128">Goody25</span></div>
+<div style="position:absolute;left:326.16px;top:151.98px" class="cls_128"><span class="cls_128">Saleduck TH</span></div>
+<div style="position:absolute;left:27.90px;top:192.86px" class="cls_129"><span class="cls_129">“Involve Asia selalu menjadi pilihan</span></div>
+<div style="position:absolute;left:266.91px;top:192.86px" class="cls_129"><span class="cls_129">“Tim yang sangat mendukung.</span></div>
+<div style="position:absolute;left:495.94px;top:192.86px" class="cls_129"><span class="cls_129">“Karya mengesankan dari Involve</span></div>
+<div style="position:absolute;left:27.90px;top:211.58px" class="cls_129"><span class="cls_129">yang tepat untuk Vocket agar kami</span></div>
+<div style="position:absolute;left:266.91px;top:211.58px" class="cls_129"><span class="cls_129">Tidak hanya offer hebat yang</span></div>
+<div style="position:absolute;left:495.94px;top:211.58px" class="cls_129"><span class="cls_129">Asia! Mudah disiapkan dan</span></div>
+<div style="position:absolute;left:27.90px;top:230.30px" class="cls_129"><span class="cls_129">mendapatkan komisi dari produk</span></div>
+<div style="position:absolute;left:266.91px;top:230.30px" class="cls_129"><span class="cls_129">tersedia di platform, Involve Asia</span></div>
+<div style="position:absolute;left:495.94px;top:230.30px" class="cls_129"><span class="cls_129">diterapkan, dan dilengkapi dengan</span></div>
+<div style="position:absolute;left:27.90px;top:249.02px" class="cls_129"><span class="cls_129">yang kami promosikan. Yang</span></div>
+<div style="position:absolute;left:266.91px;top:249.02px" class="cls_129"><span class="cls_129">memiliki tim yang sangat</span></div>
+<div style="position:absolute;left:495.94px;top:249.02px" class="cls_129"><span class="cls_129">alat canggih bagi Anda untuk</span></div>
+<div style="position:absolute;left:27.90px;top:267.74px" class="cls_129"><span class="cls_129">terpenting, dengan Involve Asia kami</span></div>
+<div style="position:absolute;left:266.91px;top:267.74px" class="cls_129"><span class="cls_129">membantu yang siap menjawab</span></div>
+<div style="position:absolute;left:495.94px;top:267.74px" class="cls_129"><span class="cls_129">mendapatkan lebih banyak konversi</span></div>
+<div style="position:absolute;left:27.90px;top:286.46px" class="cls_129"><span class="cls_129">mendapatkan konversi langsung dari</span></div>
+<div style="position:absolute;left:266.91px;top:286.46px" class="cls_129"><span class="cls_129">pertanyaan kami, berbagi</span></div>
+<div style="position:absolute;left:495.94px;top:286.46px" class="cls_129"><span class="cls_129">dengan mudah. Dengan bantuan</span></div>
+<div style="position:absolute;left:27.90px;top:305.18px" class="cls_129"><span class="cls_129">produk yang dipromosikan dengan</span></div>
+<div style="position:absolute;left:266.91px;top:305.18px" class="cls_129"><span class="cls_129">wawasan pasar, dan mendukung</span></div>
+<div style="position:absolute;left:495.94px;top:305.18px" class="cls_129"><span class="cls_129">dan saran dari personel mereka</span></div>
+<div style="position:absolute;left:27.90px;top:323.90px" class="cls_129"><span class="cls_129">tautan afiliasi mereka. ”</span></div>
+<div style="position:absolute;left:266.91px;top:323.90px" class="cls_129"><span class="cls_129">kami dengan sumber daya yang</span></div>
+<div style="position:absolute;left:495.94px;top:323.90px" class="cls_129"><span class="cls_129">yang penuh semangat, kami dapat</span></div>
+<div style="position:absolute;left:266.91px;top:342.62px" class="cls_129"><span class="cls_129">mereka miliki.”</span></div>
+<div style="position:absolute;left:495.94px;top:342.62px" class="cls_129"><span class="cls_129">memaksimalkan konversi dan</span></div>
+<div style="position:absolute;left:495.94px;top:361.34px" class="cls_129"><span class="cls_129">menghasilkan lebih tinggi. "</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:20750px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background51.jpg" width=720 height=405></div>
+<div style="position:absolute;left:189.09px;top:32.50px" class="cls_126"><span class="cls_126">Publisher sukses kami</span></div>
+<div style="position:absolute;left:459.63px;top:132.00px" class="cls_127"><span class="cls_127">Carittaa</span></div>
+<div style="position:absolute;left:182.79px;top:135.70px" class="cls_127"><span class="cls_127">DK ID</span></div>
+<div style="position:absolute;left:549.05px;top:283.94px" class="cls_127"><span class="cls_127">Bukanwulanwu</span></div>
+<div style="position:absolute;left:283.50px;top:286.02px" class="cls_127"><span class="cls_127">Skincareans</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:21165px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background52.jpg" width=720 height=405></div>
+<div style="position:absolute;left:79.14px;top:39.10px" class="cls_039"><span class="cls_039">Untuk Mengakhiri</span></div>
+<div style="position:absolute;left:167.55px;top:92.23px" class="cls_029"><span class="cls_029">Mulailah </span><span class="cls_130">memonetisasi Traffic Anda</span><span class="cls_029"> dengan cara termudah</span></div>
+<div style="position:absolute;left:167.55px;top:152.29px" class="cls_029"><span class="cls_029">Involve </span><span class="cls_130">membuat komisi </span><span class="cls_029">menjadi mudah</span></div>
+<div style="position:absolute;left:167.55px;top:210.25px" class="cls_029"><span class="cls_029">Aliran </span><span class="cls_130">campaign, banner & kupon </span><span class="cls_029">yang tak ada habisnya untuk Anda promosikan</span></div>
+<div style="position:absolute;left:167.55px;top:261.68px" class="cls_029"><span class="cls_029">Tambahkan semua akun media sosial Anda sebagai properti Anda untuk</span></div>
+<div style="position:absolute;left:167.55px;top:279.62px" class="cls_130"><span class="cls_130">memudahkan berbagi tautan unik Anda</span></div>
+<div style="position:absolute;left:167.55px;top:337.83px" class="cls_029"><span class="cls_029">Mulailah </span><span class="cls_130">Perjalanan Affiliate Marketing Anda</span><span class="cls_029"> dengan Involve hari ini</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:21580px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background53.jpg" width=720 height=405></div>
+<div style="position:absolute;left:54.47px;top:10.59px" class="cls_033"><span class="cls_033">FAQ</span></div>
+<div style="position:absolute;left:65.85px;top:97.72px" class="cls_132"><span class="cls_132">Bagaimana</span></div>
+<div style="position:absolute;left:166.33px;top:97.72px" class="cls_132"><span class="cls_132">cara</span></div>
+<div style="position:absolute;left:223.17px;top:97.72px" class="cls_132"><span class="cls_132">meningkatkan</span></div>
+<div style="position:absolute;left:382.81px;top:97.72px" class="cls_131"><span class="cls_131">Bagaimana mendapatkan</span></div>
+<div style="position:absolute;left:65.85px;top:117.04px" class="cls_132"><span class="cls_132">konversi saya ?</span></div>
+<div style="position:absolute;left:382.81px;top:117.15px" class="cls_131"><span class="cls_131">banner/foto (contoh: Zalora) yang</span></div>
+<div style="position:absolute;left:382.81px;top:136.58px" class="cls_131"><span class="cls_131">dapat saya tempatkan di media</span></div>
+<div style="position:absolute;left:54.40px;top:145.48px" class="cls_133"><span class="cls_133">●   Tingkatkan traffic dan engagement di halaman</span></div>
+<div style="position:absolute;left:79.04px;top:160.66px" class="cls_133"><span class="cls_133">Anda.</span></div>
+<div style="position:absolute;left:54.40px;top:185.84px" class="cls_133"><span class="cls_133">●   Tetap aktif dan posting tautan afiliasi di setiap</span></div>
+<div style="position:absolute;left:382.81px;top:192.21px" class="cls_133"><span class="cls_133">Anda  dapat  menggunakan  materi  iklan  yang</span></div>
+<div style="position:absolute;left:79.04px;top:201.02px" class="cls_133"><span class="cls_133">konten terbaru Anda.</span></div>
+<div style="position:absolute;left:382.81px;top:207.39px" class="cls_133"><span class="cls_133">disediakan di platform Involve Asia atau situs</span></div>
+<div style="position:absolute;left:382.81px;top:222.57px" class="cls_133"><span class="cls_133">web advertiser langsung (Artinya hanya dari situs</span></div>
+<div style="position:absolute;left:54.40px;top:226.20px" class="cls_133"><span class="cls_133">●   Unggah postingan yang relevan tentang produk</span></div>
+<div style="position:absolute;left:382.81px;top:237.75px" class="cls_133"><span class="cls_133">web advertiser Shopee, Lazada, dll). Selain itu,</span></div>
+<div style="position:absolute;left:79.04px;top:241.38px" class="cls_133"><span class="cls_133">atau promosi.</span></div>
+<div style="position:absolute;left:382.81px;top:252.93px" class="cls_133"><span class="cls_133">login  ke  akun  IA  Anda,  cari  Zalora  dan  klik</span></div>
+<div style="position:absolute;left:54.40px;top:266.56px" class="cls_133"><span class="cls_133">●   Menggunakan   Iklan,   seperti   Iklan   Facebook</span></div>
+<div style="position:absolute;left:382.81px;top:268.11px" class="cls_133"><span class="cls_133">advertiser, akan ada campaign terbaru di banner</span></div>
+<div style="position:absolute;left:79.04px;top:281.74px" class="cls_133"><span class="cls_133">untuk mempromosikan offer.</span></div>
+<div style="position:absolute;left:382.81px;top:283.29px" class="cls_133"><span class="cls_133">dan kupon dashboard, klik campaign yang ingin</span></div>
+<div style="position:absolute;left:382.81px;top:298.47px" class="cls_133"><span class="cls_133">Anda promosikan, dan banner akan disediakan.</span></div>
+<div style="position:absolute;left:54.40px;top:306.92px" class="cls_133"><span class="cls_133">●   Selalu   masukkan   "call-to-action"   saat   Anda</span></div>
+<div style="position:absolute;left:79.04px;top:322.10px" class="cls_133"><span class="cls_133">mempromosikan suatu produk. (Contoh: Beli di</span></div>
+<div style="position:absolute;left:79.04px;top:337.28px" class="cls_133"><span class="cls_133">sini, Klik link pembeliannya)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:21995px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background54.jpg" width=720 height=405></div>
+<div style="position:absolute;left:54.47px;top:10.59px" class="cls_033"><span class="cls_033">FAQ</span></div>
+<div style="position:absolute;left:65.85px;top:109.72px" class="cls_132"><span class="cls_132">Apa saja offer yang saya dapat</span></div>
+<div style="position:absolute;left:378.61px;top:109.72px" class="cls_131"><span class="cls_131">Apa itu Konversi?</span></div>
+<div style="position:absolute;left:65.85px;top:129.04px" class="cls_132"><span class="cls_132">promosikan?</span></div>
+<div style="position:absolute;left:378.61px;top:140.09px" class="cls_133"><span class="cls_133">Konversi juga dikenal sebagai transaksi dalam</span></div>
+<div style="position:absolute;left:378.61px;top:155.27px" class="cls_133"><span class="cls_133">istilah </span><span class="cls_124">affiliate marketing</span><span class="cls_133">. Semua pembelian atau</span></div>
+<div style="position:absolute;left:65.85px;top:161.37px" class="cls_133"><span class="cls_133">Anda dapat mempromosikan semua jenis offer</span></div>
+<div style="position:absolute;left:378.61px;top:170.45px" class="cls_133"><span class="cls_133">layanan yang dilakukan oleh publisher disebut</span></div>
+<div style="position:absolute;left:65.85px;top:176.55px" class="cls_133"><span class="cls_133">yang tersedia di platform kami, namun kami</span></div>
+<div style="position:absolute;left:378.61px;top:185.63px" class="cls_133"><span class="cls_133">konversi.</span></div>
+<div style="position:absolute;left:65.85px;top:191.73px" class="cls_133"><span class="cls_133">menyarankan Anda untuk mempromosikan offer</span></div>
+<div style="position:absolute;left:65.85px;top:206.91px" class="cls_133"><span class="cls_133">yang terkait dengan properti Anda</span></div>
+<div style="position:absolute;left:65.85px;top:230.09px" class="cls_134"><span class="cls_134">Contoh:</span><span class="cls_133"> Jika properti Anda adalah Blog dan</span></div>
+<div style="position:absolute;left:65.85px;top:245.27px" class="cls_133"><span class="cls_133">konten yang terkait dengan produk Kecantikan,</span></div>
+<div style="position:absolute;left:379.93px;top:254.03px" class="cls_131"><span class="cls_131">Bagaimana Melakukan Penarikan?</span></div>
+<div style="position:absolute;left:65.85px;top:260.45px" class="cls_133"><span class="cls_133">maka rekomendasi terbaik adalah offer yang</span></div>
+<div style="position:absolute;left:65.85px;top:275.63px" class="cls_133"><span class="cls_133">terkait dengan produk kesehatan & kecantikan.</span></div>
+<div style="position:absolute;left:379.93px;top:284.39px" class="cls_133"><span class="cls_133">Harap perhatikan bahwa batas ambang minimal</span></div>
+<div style="position:absolute;left:379.93px;top:299.57px" class="cls_133"><span class="cls_133">(80) Ringgit Malaysia diperlukan agar memenuhi</span></div>
+<div style="position:absolute;left:379.93px;top:314.75px" class="cls_133"><span class="cls_133">syarat untuk penarikan komisi apa pun.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-360px;top:22410px;width:720px;height:405px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="99ee33cc-f099-11eb-a980-0cc47a792c0a_id_99ee33cc-f099-11eb-a980-0cc47a792c0a_files/background55.jpg" width=720 height=405></div>
+<div style="position:absolute;left:79.14px;top:39.10px" class="cls_039"><span class="cls_039">Mulai bergabung di Involve Asia</span></div>
+<div style="position:absolute;left:155.10px;top:93.61px" class="cls_029"><span class="cls_029">Sign up sekarang dengan </span><A HREF="https://invol.co/cl5as8h">Klik di sini untuk daftar Involve Asia</A> </div>
+<div style="position:absolute;left:155.10px;top:152.29px" class="cls_029"><span class="cls_029">Join group chat Telegram kami untuk mendapatkan tips </span><A HREF="https://t.me/involveasiatips">@involveasiatips</A></div>
+<div style="position:absolute;left:155.10px;top:152.29px" class="cls_029"><span class="cls_029">Subscribe Youtube Channel </span><A HREF="https://youtube.com/arineo">ARI NEO</A></div>
+</div>
+
+</body>
+</html>
